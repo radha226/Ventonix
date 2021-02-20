@@ -11,6 +11,8 @@ import { CareersComponent } from "./pages/careers/careers.component";
 import { JobListingComponent } from "./pages/job-listing/job-listing.component";
 import { ApplicationComponent } from "./pages/application/application.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { MaterialModule } from "./material-module";
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,14 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
     JobListingComponent,
     ApplicationComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MaterialModule,
+    BrowserAnimationsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

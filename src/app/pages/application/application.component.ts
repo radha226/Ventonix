@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
+import { MatSnackBar } from "@angular/material/snack-bar";
 
 @Component({
   selector: "app-application",
@@ -34,19 +35,40 @@ export class ApplicationComponent implements OnInit {
     },
   ];
   applicationForm: FormGroup;
-  constructor(private formBuilder: FormBuilder) {
+  constructor(
+    private formBuilder: FormBuilder,
+    private _snackBar: MatSnackBar
+  ) {
+    this.checkValidation();
+    window.scrollTo(0, 0);
+  }
+  checkValidation() {
     this.applicationForm = this.formBuilder.group({
       jobDetails: ["", Validators.required],
       FullName: ["", Validators.required],
       Email: ["", [Validators.required, Validators.email]],
       Phone: ["", Validators.required],
       experience: ["", Validators.required],
+      CTC: ["", Validators.required],
+      Expected: ["", Validators.required],
+      Reason: ["", Validators.required],
+      resume: ["", Validators.required],
+      letter: ["", Validators.required],
     });
   }
-  get f() {
+  get formName() {
     return this.applicationForm.controls;
   }
-  onSubmit() {}
+  onSubmit(data) {
+    console.log(data.value);
+    if (!data.valid) {
+    } else {
+      this._snackBar.open("You have Successfully Applied this position", "", {
+        duration: 2000,
+      });
+      // console.log(data.value);
+    }
+  }
 
   ngOnInit(): void {}
 }

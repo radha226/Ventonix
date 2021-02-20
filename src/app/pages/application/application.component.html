@@ -41,27 +41,28 @@
           <form
             class="login-form"
             [formGroup]="applicationForm"
-            (ngSubmit)="onSubmit()"
+            (ngSubmit)="onSubmit(applicationForm)"
           >
             <div class="form-group">
-              <select
+              <mat-select
                 formControlName="jobDetails"
                 class="form-control"
-                [ngClass]="{ 'is-invalid': submitted && f.jobDetails.errors }"
+                placeholder="Select Position"
                 ng-modal
               >
-                <option value="" selected>select Your Position</option>
-                <option *ngFor="let o of options" [value]="o">
+                <!-- <option value="" selected>select Your Position</option> -->
+                <mat-option *ngFor="let o of options" [value]="o">
                   {{ o.name }}
-                </option>
-              </select>
+                </mat-option>
+              </mat-select>
               <div
-                *ngIf="submitted && f.jobDetails.errors"
-                class="invalid-feedback"
+                *ngIf="
+                  formName.jobDetails.invalid && formName.jobDetails.touched
+                "
               >
-                <div *ngIf="f.jobDetails.errors.required">
+                <mat-error *ngIf="formName.jobDetails.errors.required">
                   please Select Your Position
-                </div>
+                </mat-error>
               </div>
               <input
                 type="text"
@@ -69,14 +70,12 @@
                 formControlName="FullName"
                 class="form-control"
                 autocomplete="current-FullName"
-                [ngClass]="{ 'is-invalid': submitted && f.FullName.errors }"
               />
               <div
-                *ngIf="submitted && f.FullName.errors"
-                class="invalid-feedback"
+                *ngIf="formName.FullName.invalid && formName.FullName.touched"
               >
-                <div *ngIf="f.FullName.errors.required">
-                  Full Name is required
+                <div *ngIf="formName.FullName.errors.required">
+                  <mat-error>Full Name is required</mat-error>
                 </div>
               </div>
             </div>
@@ -89,13 +88,11 @@
                     formControlName="Phone"
                     class="form-control"
                     autocomplete="current-Phone"
-                    [ngClass]="{ 'is-invalid': submitted && f.Phone.errors }"
                   />
-                  <div
-                    *ngIf="submitted && f.Phone.errors"
-                    class="invalid-feedback"
-                  >
-                    <div *ngIf="f.Phone.errors.required">Phone is required</div>
+                  <div *ngIf="formName.Phone.invalid && formName.Phone.touched">
+                    <div *ngIf="formName.Phone.errors.required">
+                      <mat-error>Phone No is required</mat-error>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -107,15 +104,15 @@
                     autocomplete="Email"
                     formControlName="Email"
                     class="form-control"
-                    [ngClass]="{ 'is-invalid': submitted && f.Email.errors }"
                   />
-                  <div
-                    *ngIf="submitted && f.Email.errors"
-                    class="invalid-feedback"
-                  >
-                    <div *ngIf="f.Email.errors.required">Email is required</div>
-                    <div *ngIf="f.Email.errors.Email">
-                      Email must be a valid Email address
+                  <div *ngIf="formName.Email.invalid && formName.Email.touched">
+                    <div *ngIf="formName.Email.errors.required">
+                      <mat-error *ngIf="formName.Email.errors.required"
+                        >Email is required</mat-error
+                      >
+                      <mat-error *ngIf="formName.Email.errors.email"
+                        >Email must be a valid Email address</mat-error
+                      >
                     </div>
                   </div>
                 </div>
@@ -128,28 +125,31 @@
                 formControlName="experience"
                 class="form-control"
                 autocomplete="current-experience"
-                [ngClass]="{ 'is-invalid': submitted && f.experience.errors }"
               />
               <div
-                *ngIf="submitted && f.experience.errors"
+                *ngIf="
+                  formName.experience.invalid && formName.experience.touched
+                "
                 class="invalid-feedback"
               >
-                <div *ngIf="f.experience.errors.required">
-                  Total experience is required
+                <div *ngIf="formName.experience.errors.required">
+                  <mat-error>Total experience is required</mat-error>
                 </div>
               </div>
             </div>
-            <!-- <div class="form-group">
+
+            <div class="form-group">
               <input
                 type="text"
                 placeholder="Current CTC"
                 formControlName="CTC"
                 class="form-control"
                 autocomplete="current-CTC"
-                [ngClass]="{ 'is-invalid': submitted && f.CTC.errors }"
               />
-              <div *ngIf="submitted && f.CTC.errors" class="invalid-feedback">
-                <div *ngIf="f.CTC.errors.required">Current CTC is required</div>
+              <div *ngIf="formName.CTC.invalid && formName.CTC.touched">
+                <div *ngIf="formName.CTC.errors.required">
+                  <mat-error>Current CTC is required</mat-error>
+                </div>
               </div>
             </div>
             <div class="form-group">
@@ -159,35 +159,31 @@
                 formControlName="Expected"
                 class="form-control"
                 autocomplete="current-Expected"
-                [ngClass]="{ 'is-invalid': submitted && f.Expected.errors }"
               />
               <div
-                *ngIf="submitted && f.Expected.errors"
-                class="invalid-feedback"
+                *ngIf="formName.Expected.invalid && formName.Expected.touched"
               >
-                <div *ngIf="f.Expected.errors.required">
-                  Expected CTC is required
+                <div *ngIf="formName.Expected.errors.required">
+                  <mat-error> Expected CTC is required</mat-error>
                 </div>
               </div>
             </div>
+
             <div class="form-group">
               <input
                 type="text"
                 placeholder="Reasong for change"
-                formControlName="Reasong"
+                formControlName="Reason"
                 class="form-control"
-                autocomplete="current-Reasong"
-                [ngClass]="{ 'is-invalid': submitted && f.Reasong.errors }"
+                autocomplete="current-Reason"
               />
-              <div
-                *ngIf="submitted && f.Reasong.errors"
-                class="invalid-feedback"
-              >
-                <div *ngIf="f.Reasong.errors.required">
-                  Reasong for change is required
+              <div *ngIf="formName.Reason.invalid && formName.Reason.touched">
+                <div *ngIf="formName.Reason.errors.required">
+                  <mat-error>Reason for change is required</mat-error>
                 </div>
               </div>
             </div>
+
             <div class="form-group">
               <input
                 type="text"
@@ -195,17 +191,14 @@
                 formControlName="resume"
                 class="form-control"
                 autocomplete="current-resume"
-                [ngClass]="{ 'is-invalid': submitted && f.resume.errors }"
               />
-              <div
-                *ngIf="submitted && f.resume.errors"
-                class="invalid-feedback"
-              >
-                <div *ngIf="f.resume.errors.required">
-                  Attach resume is required
+              <div *ngIf="formName.resume.invalid && formName.resume.touched">
+                <div *ngIf="formName.resume.errors.required">
+                  <mat-error> Attach resume is required</mat-error>
                 </div>
               </div>
             </div>
+
             <div class="form-group">
               <textarea
                 rows="5"
@@ -214,25 +207,25 @@
                 formControlName="letter"
                 class="form-control"
                 autocomplete="current-letter"
-                [ngClass]="{ 'is-invalid': submitted && f.letter.errors }"
               >
               </textarea>
-              <div
-                *ngIf="submitted && f.letter.errors"
-                class="invalid-feedback"
-              >
-                <div *ngIf="f.letter.errors.required">
+              <div *ngIf="formName.letter.invalid && formName.letter.touched">
+                <div *ngIf="formName.letter.errors.required">
                   Short cover letter is required
                 </div>
               </div>
-            </div> -->
+            </div>
 
             <div class="form-group text-left">
-              <button class="btn btn-main">
-                <span
+              <button
+                class="btn btn-main"
+                [disabled]="!applicationForm.valid"
+                (click)="onSubmit(applicationForm)"
+              >
+                <!-- <span
                   class="spinner-border spinner-border-sm mr-1"
                   *ngIf="applicationForm.valid"
-                ></span>
+                ></span> -->
                 Submit →
               </button>
             </div>

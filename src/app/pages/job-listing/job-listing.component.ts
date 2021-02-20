@@ -397,6 +397,7 @@ export class JobListingComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
     this.route.params.subscribe((params: any) => {
       this.singleDetail = this.jobDetail.find((value, index) => {
         return value["id"] == params["id"];

@@ -48,7 +48,9 @@ export class CareersComponent implements OnInit {
       id: 8,
     },
   ];
-  constructor() {}
+  constructor() {
+    window.scrollTo(0, 0);
+  }
 
   ngOnInit(): void {}
 }
