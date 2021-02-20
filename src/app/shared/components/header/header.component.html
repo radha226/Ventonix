@@ -1,0 +1,73 @@
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <div class="logo">
+        <a routerLink="">
+          <img
+            src="assets/images/logo.svg"
+            width="60"
+            class="img-fluid"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="d-flex justify-content-end align-items-center side-menu">
+        <div class="main-menu" *ngIf="showmenu">
+          <ul>
+            <li>
+              <a [routerLink]="['/home']" routerLinkActive="active">Home</a>
+            </li>
+            <li>
+              <a [routerLink]="['/about']" routerLinkActive="active">About</a>
+            </li>
+            <li>
+              <a [routerLink]="['/contact']" routerLinkActive="active"
+                >Contact</a
+              >
+            </li>
+            <!-- <li>
+                <a (click)="hideMenu()" [routerLink]="['/service']">Services</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a (click)="hideMenu()"  [routerLink]="['/']">Website</a>
+                  </li>
+                  <li>
+                    <a (click)="hideMenu()"  [routerLink]="['/']">Mobile App</a>
+                  </li>
+                  <li>
+                    <a (click)="hideMenu()"  [routerLink]="['/']">SEO</a>
+                  </li>
+                  <li>
+                    <a (click)="hideMenu()"  [routerLink]="['/']">Graphic Design</a>
+                  </li>
+                </ul>
+              </li> -->
+            <!-- <li>
+                <a (click)="hideMenu()" [routerLink]="['/contact']">Contact</a>
+              </li> -->
+          </ul>
+        </div>
+        <div class="menu">
+          <img
+            src="../assets/images/menu.svg"
+            width="40"
+            class="img-fluid c-p close-menu"
+            alt=""
+            (click)="showMenu()"
+            *ngIf="!showmenu"
+          />
+          <img
+            src="../assets/images/close-menu.svg"
+            width="40"
+            class="img-fluid c-p open-menu"
+            alt=""
+            (click)="hideMenu()"
+            *ngIf="showmenu"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

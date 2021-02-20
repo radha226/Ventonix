@@ -1,0 +1,107 @@
+.sv-hero {
+  background-color: #f5f5f5;
+  &::after {
+    background-image: url(../../../assets/images/about.svg);
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 79px;
+  }
+}
+a.btn.btn-main {
+  background-image: linear-gradient(to right, #009eff, #30ccc6, #009eff);
+  background-size: 300% 100%;
+  border-radius: 5px;
+  padding: 15px 35px;
+  color: #fff;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    background-position: 100% 0;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+}
+.work-with-us {
+  background-image: url(../../../assets/images/wwu.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 0 0 100px 0;
+  display: flex;
+  align-items: center;
+  background-position: left;
+
+  p {
+    color: #262332;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 400px;
+  }
+  .tts {
+    h2 {
+      color: #262332;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 32px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      li {
+        margin: 0 0 50px 0;
+        display: flex;
+        .icons {
+          margin-right: 15px;
+        }
+
+        p {
+          color: #262332;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 32px;
+        }
+      }
+    }
+  }
+}
+.team {
+  background-image: url(../../../assets/images/team.svg);
+  background-size: cover;
+  background-position: bottom;
+  padding: 100px 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  h2 {
+    color: #262332;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  h3 {
+    color: #111010;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  p {
+    color: #79848b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
