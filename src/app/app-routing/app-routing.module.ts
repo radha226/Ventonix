@@ -4,6 +4,8 @@ import { RouterModule, Routes } from "@angular/router";
 import { ContactComponent } from "../pages/contact/contact.component";
 import { HomeComponent } from "../pages/home/home.component";
 import { AboutComponent } from "../pages/about/about.component";
+import { CareersComponent } from "../pages/careers/careers.component";
+import { JobListingComponent } from "../pages/job-listing/job-listing.component";
 const routes: Routes = [
   {
     path: "",
@@ -12,13 +14,14 @@ const routes: Routes = [
   },
   {
     path: "home",
-
     component: HomeComponent,
   },
   {
     path: "about",
     component: AboutComponent,
   },
+  { path: "careers", component: CareersComponent },
+  { path: "job-listing/:id", component: JobListingComponent },
   { path: "contact", component: ContactComponent },
 ];
 

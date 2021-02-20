@@ -1,0 +1,56 @@
+<div *ngIf="singleDetail">
+  <section class="sv-hero s1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sv-hero-inner">
+            <svg width="152px" height="3px" viewBox="0 0 152 3" version="1.1">
+              <path
+                d="M0 0.5L150 0.5"
+                transform="translate(1 1)"
+                id="Path-4"
+                fill="none"
+                fill-rule="evenodd"
+                stroke="#FFFFFF"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+            <h2 class="mt-3">
+              {{ singleDetail?.name }}
+            </h2>
+            <a [routerLink]="['/application']" class="btn-white"
+              >Apply now <span>→</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="job-details">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="job-details-inner">
+            <h4>Roles & responsibilities</h4>
+            <ul>
+              <li *ngFor="let role of singleDetail?.role">
+                {{ role?.desc }}
+              </li>
+            </ul>
+            <h4>Key skills</h4>
+            <ul>
+              <li *ngFor="let item of singleDetail?.skill">
+                {{ item?.desc }}
+              </li>
+            </ul>
+            <a [routerLink]="['/application']" class="btn btn-main nav__link"
+              >Apply now →</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

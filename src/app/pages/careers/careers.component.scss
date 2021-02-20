@@ -1,0 +1,62 @@
+.sv-hero {
+  background-color: #f5f5f5;
+  &::after {
+    background-image: url(../../../assets/images/join-team.svg);
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 79px;
+  }
+}
+a:hover {
+  text-decoration: none;
+}
+.Currentopenings-inner {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+      background: #f5f5f5;
+      padding: 60px;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 15px;
+      h4 {
+        color: #262332;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+      }
+      p {
+        color: #a3a3a3;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+      img {
+        position: absolute;
+        top: 48%;
+        right: 60px;
+      }
+    }
+  }
+}
+.pagination {
+  li {
+    a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 30px;
+      color: #a3a3a3;
+      border: 0;
+      margin: 1px;
+      &.active {
+        border: 1px solid #009eff;
+      }
+    }
+  }
+}
