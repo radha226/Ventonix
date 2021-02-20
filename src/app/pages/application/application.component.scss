@@ -1,0 +1,80 @@
+.sv-hero {
+  background-color: #f5f5f5;
+  &::after {
+    background-image: url(../../../assets/images/join-team.svg);
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 79px;
+  }
+}
+.lp-inner {
+  h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 60px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 1px;
+
+    color: #262332;
+  }
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    color: #262332;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+}
+.login-registration {
+  padding: 100px 0;
+  .form-group {
+    margin-bottom: 30px;
+  }
+  .form-control {
+    border-radius: 5px;
+    border: 2px solid #262332;
+    padding: 10px 15px !important;
+    min-height: 44px;
+    margin-bottom: 30px;
+  }
+  .form-check-label {
+    color: #262332;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0.18461539px;
+  }
+}
+.find-out {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+.fuom {
+  color: #262332;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+.btn.btn-main {
+  background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+  border-radius: 5px;
+  padding: 15px 35px;
+  color: #fff;
+  transition: 0.4s ease all;
+  &:hover {
+    transform: translateY(5px) scale(0.9);
+  }
+}

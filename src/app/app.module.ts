@@ -7,9 +7,10 @@ import { HomeComponent } from "./pages/home/home.component";
 import { AboutComponent } from "./pages/about/about.component";
 import { ContactComponent } from "./pages/contact/contact.component";
 import { AppRoutingModule } from "./app-routing/app-routing.module";
-import { CareersComponent } from './pages/careers/careers.component';
-import { JobListingComponent } from './pages/job-listing/job-listing.component';
-
+import { CareersComponent } from "./pages/careers/careers.component";
+import { JobListingComponent } from "./pages/job-listing/job-listing.component";
+import { ApplicationComponent } from "./pages/application/application.component";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,8 +21,9 @@ import { JobListingComponent } from './pages/job-listing/job-listing.component';
     ContactComponent,
     CareersComponent,
     JobListingComponent,
+    ApplicationComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

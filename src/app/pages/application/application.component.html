@@ -1,0 +1,244 @@
+<section class="sv-hero s1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sv-hero-inner">
+          <svg width="152px" height="3px" viewBox="0 0 152 3" version="1.1">
+            <path
+              d="M0 0.5L150 0.5"
+              transform="translate(1 1)"
+              id="Path-4"
+              fill="none"
+              fill-rule="evenodd"
+              stroke="#FFFFFF"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <h2 class="mt-3">
+            Application to join <br />
+            our team
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="login-registration">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="lp-inner">
+          <h2>Apply now</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form">
+          <form
+            class="login-form"
+            [formGroup]="applicationForm"
+            (ngSubmit)="onSubmit()"
+          >
+            <div class="form-group">
+              <select
+                formControlName="jobDetails"
+                class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f.jobDetails.errors }"
+                ng-modal
+              >
+                <option value="" selected>select Your Position</option>
+                <option *ngFor="let o of options" [value]="o">
+                  {{ o.name }}
+                </option>
+              </select>
+              <div
+                *ngIf="submitted && f.jobDetails.errors"
+                class="invalid-feedback"
+              >
+                <div *ngIf="f.jobDetails.errors.required">
+                  please Select Your Position
+                </div>
+              </div>
+              <input
+                type="text"
+                placeholder="Your Full Name"
+                formControlName="FullName"
+                class="form-control"
+                autocomplete="current-FullName"
+                [ngClass]="{ 'is-invalid': submitted && f.FullName.errors }"
+              />
+              <div
+                *ngIf="submitted && f.FullName.errors"
+                class="invalid-feedback"
+              >
+                <div *ngIf="f.FullName.errors.required">
+                  Full Name is required
+                </div>
+              </div>
+            </div>
+            <div class="row m-0">
+              <div class="col-md-6 pl-0">
+                <div class="form-group">
+                  <input
+                    type="number"
+                    placeholder="Mobile"
+                    formControlName="Phone"
+                    class="form-control"
+                    autocomplete="current-Phone"
+                    [ngClass]="{ 'is-invalid': submitted && f.Phone.errors }"
+                  />
+                  <div
+                    *ngIf="submitted && f.Phone.errors"
+                    class="invalid-feedback"
+                  >
+                    <div *ngIf="f.Phone.errors.required">Phone is required</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 pr-0">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    placeholder="Email"
+                    autocomplete="Email"
+                    formControlName="Email"
+                    class="form-control"
+                    [ngClass]="{ 'is-invalid': submitted && f.Email.errors }"
+                  />
+                  <div
+                    *ngIf="submitted && f.Email.errors"
+                    class="invalid-feedback"
+                  >
+                    <div *ngIf="f.Email.errors.required">Email is required</div>
+                    <div *ngIf="f.Email.errors.Email">
+                      Email must be a valid Email address
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Total experience"
+                formControlName="experience"
+                class="form-control"
+                autocomplete="current-experience"
+                [ngClass]="{ 'is-invalid': submitted && f.experience.errors }"
+              />
+              <div
+                *ngIf="submitted && f.experience.errors"
+                class="invalid-feedback"
+              >
+                <div *ngIf="f.experience.errors.required">
+                  Total experience is required
+                </div>
+              </div>
+            </div>
+            <!-- <div class="form-group">
+              <input
+                type="text"
+                placeholder="Current CTC"
+                formControlName="CTC"
+                class="form-control"
+                autocomplete="current-CTC"
+                [ngClass]="{ 'is-invalid': submitted && f.CTC.errors }"
+              />
+              <div *ngIf="submitted && f.CTC.errors" class="invalid-feedback">
+                <div *ngIf="f.CTC.errors.required">Current CTC is required</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Expected CTC"
+                formControlName="Expected"
+                class="form-control"
+                autocomplete="current-Expected"
+                [ngClass]="{ 'is-invalid': submitted && f.Expected.errors }"
+              />
+              <div
+                *ngIf="submitted && f.Expected.errors"
+                class="invalid-feedback"
+              >
+                <div *ngIf="f.Expected.errors.required">
+                  Expected CTC is required
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Reasong for change"
+                formControlName="Reasong"
+                class="form-control"
+                autocomplete="current-Reasong"
+                [ngClass]="{ 'is-invalid': submitted && f.Reasong.errors }"
+              />
+              <div
+                *ngIf="submitted && f.Reasong.errors"
+                class="invalid-feedback"
+              >
+                <div *ngIf="f.Reasong.errors.required">
+                  Reasong for change is required
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Attach resume (PDF/Doc only)"
+                formControlName="resume"
+                class="form-control"
+                autocomplete="current-resume"
+                [ngClass]="{ 'is-invalid': submitted && f.resume.errors }"
+              />
+              <div
+                *ngIf="submitted && f.resume.errors"
+                class="invalid-feedback"
+              >
+                <div *ngIf="f.resume.errors.required">
+                  Attach resume is required
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea
+                rows="5"
+                type="text"
+                placeholder="Short cover letter"
+                formControlName="letter"
+                class="form-control"
+                autocomplete="current-letter"
+                [ngClass]="{ 'is-invalid': submitted && f.letter.errors }"
+              >
+              </textarea>
+              <div
+                *ngIf="submitted && f.letter.errors"
+                class="invalid-feedback"
+              >
+                <div *ngIf="f.letter.errors.required">
+                  Short cover letter is required
+                </div>
+              </div>
+            </div> -->
+
+            <div class="form-group text-left">
+              <button class="btn btn-main">
+                <span
+                  class="spinner-border spinner-border-sm mr-1"
+                  *ngIf="applicationForm.valid"
+                ></span>
+                Submit →
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

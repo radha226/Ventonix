@@ -6,6 +6,7 @@ import { HomeComponent } from "../pages/home/home.component";
 import { AboutComponent } from "../pages/about/about.component";
 import { CareersComponent } from "../pages/careers/careers.component";
 import { JobListingComponent } from "../pages/job-listing/job-listing.component";
+import { ApplicationComponent } from "../pages/application/application.component";
 const routes: Routes = [
   {
     path: "",
@@ -22,6 +23,7 @@ const routes: Routes = [
   },
   { path: "careers", component: CareersComponent },
   { path: "job-listing/:id", component: JobListingComponent },
+  { path: "application", component: ApplicationComponent },
   { path: "contact", component: ContactComponent },
 ];
 
