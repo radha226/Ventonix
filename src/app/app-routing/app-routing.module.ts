@@ -7,6 +7,10 @@ import { AboutComponent } from "../pages/about/about.component";
 import { CareersComponent } from "../pages/careers/careers.component";
 import { JobListingComponent } from "../pages/job-listing/job-listing.component";
 import { ApplicationComponent } from "../pages/application/application.component";
+import { WebsiteComponent } from "../pages/services/website/website.component";
+import { MobileAppComponent } from "../pages/services/mobile-app/mobile-app.component";
+import { GraphicComponent } from "../pages/services/graphic/graphic.component";
+import { SeoComponent } from "../pages/services/seo/seo.component";
 const routes: Routes = [
   {
     path: "",
@@ -23,6 +27,10 @@ const routes: Routes = [
   },
   { path: "careers", component: CareersComponent },
   { path: "job-listing/:id", component: JobListingComponent },
+  { path: "website", component: WebsiteComponent },
+  { path: "mobile", component: MobileAppComponent },
+  { path: "seo", component: SeoComponent },
+  { path: "graphic", component: GraphicComponent },
   { path: "application", component: ApplicationComponent },
   { path: "contact", component: ContactComponent },
 ];

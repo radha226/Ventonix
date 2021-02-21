@@ -13,6 +13,10 @@ import { ApplicationComponent } from "./pages/application/application.component"
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MaterialModule } from "./material-module";
+import { WebsiteComponent } from './pages/services/website/website.component';
+import { MobileAppComponent } from './pages/services/mobile-app/mobile-app.component';
+import { SeoComponent } from './pages/services/seo/seo.component';
+import { GraphicComponent } from './pages/services/graphic/graphic.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +28,10 @@ import { MaterialModule } from "./material-module";
     CareersComponent,
     JobListingComponent,
     ApplicationComponent,
+    WebsiteComponent,
+    MobileAppComponent,
+    SeoComponent,
+    GraphicComponent,
   ],
   imports: [
     BrowserModule,
