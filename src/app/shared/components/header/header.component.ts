@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { HeaderService } from "../../services/header.service";
 
 @Component({
   selector: "app-header",
@@ -8,9 +9,14 @@ import { Component, OnInit } from "@angular/core";
 export class HeaderComponent implements OnInit {
   title = "ventoxin";
   showmenu = false;
-  constructor() {}
-
-  ngOnInit(): void {}
+  constructor(private headerService: HeaderService) {}
+  isHomePage: boolean = true;
+  ngOnInit(): void {
+    this.headerService.isHomePage.subscribe((res) => {
+      this.isHomePage = res;
+      // console.log("value", this.isHomePage);
+    });
+  }
   showMenu() {
     this.showmenu = true;
   }

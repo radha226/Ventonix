@@ -1,17 +1,22 @@
-header {
-  padding: 40px 0;
-  transition: 0.3s ease all;
-  z-index: 999999;
-  position: relative;
-  .logo {
-    filter: brightness(32);
-  }
-  .c-p {
-    filter: brightness(32);
-  }
+.header {
+  padding: 20px 0;
+  // transition: 0.3s ease all;
+  // z-index: 999999;
+  // position: relative;
+  // .logo {
+  //   filter: brightness(32);
+  // }
+  // .c-p {
+  //   filter: brightness(32);
+  // }
 }
+
 .navigation__checkbox {
   display: none;
+}
+.white-logo {
+  position: relative;
+  z-index: 999;
 }
 
 .navigation__button {

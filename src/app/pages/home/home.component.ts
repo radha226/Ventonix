@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import * as $ from "jquery";
+import { HeaderService } from "src/app/shared/services/header.service";
 import Swiper from "../../../assets/js/swiper-bundle.min.js";
 @Component({
   selector: "app-home",
@@ -7,7 +8,9 @@ import Swiper from "../../../assets/js/swiper-bundle.min.js";
   styleUrls: ["./home.component.scss"],
 })
 export class HomeComponent implements OnInit {
-  constructor() {}
+  constructor(private headerService: HeaderService) {
+    this.headerService.isHomePage.next(true);
+  }
 
   ngOnInit(): void {
     setTimeout(function () {
@@ -75,36 +78,36 @@ export class HomeComponent implements OnInit {
       //     });
     }, 1000);
 
-    // var counted = 0;
-    // $(window).scroll(function () {
-    //   console.log("yess scrolling");
-    //   var oTop = $("#counter").offset().top - window.innerHeight;
-    //   if (counted == 0 && $(window).scrollTop() > oTop) {
-    //     $(".count").each(function () {
-    //       var $this = $(this),
-    //         countTo = $this.attr("data-count");
-    //       $({
-    //         countNum: $this.text(),
-    //       }).animate(
-    //         {
-    //           countNum: countTo,
-    //         },
+    var counted = 0;
+    $(window).scroll(function () {
+      console.log("yess scrolling");
+      var oTop = $("#counter").offset().top - window.innerHeight;
+      if (counted == 0 && $(window).scrollTop() > oTop) {
+        $(".count").each(function () {
+          var $this = $(this),
+            countTo = $this.attr("data-count");
+          $({
+            countNum: $this.text(),
+          }).animate(
+            {
+              countNum: countTo,
+            },
 
-    //         {
-    //           duration: 2000,
-    //           easing: "swing",
-    //           step: function () {
-    //             $this.text(Math.floor(this.countNum));
-    //           },
-    //           complete: function () {
-    //             $this.text(this.countNum);
-    //             //alert('finished');
-    //           },
-    //         }
-    //       );
-    //     });
-    //     counted = 1;
-    //   }
-    // });
+            {
+              duration: 2000,
+              easing: "swing",
+              step: function () {
+                $this.text(Math.floor(this.countNum));
+              },
+              complete: function () {
+                $this.text(this.countNum);
+                //alert('finished');
+              },
+            }
+          );
+        });
+        counted = 1;
+      }
+    });
   }
 }

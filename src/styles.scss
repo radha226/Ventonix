@@ -6,7 +6,7 @@
 /* ******************General Css******************** */
 section {
   height: auto !important;
-  padding: 120px 0 !important;
+  padding: 120px 0;
   min-height: auto !important;
 }
 html,
@@ -195,7 +195,7 @@ body {
   }
   .container {
     @include for-size(bigdesktop) {
-      max-width: 1600px;
+      max-width: 1630px;
     }
   }
 }

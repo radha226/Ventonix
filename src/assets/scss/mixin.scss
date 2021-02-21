@@ -1,13 +1,23 @@
 @mixin for-size($size) {
-    @if $size == phone {
-      @media (max-width: 575px) { @content; }
-    } @else if $size == smalltab {
-      @media (min-width: 576px) { @content; }
-    } @else if $size == tabletlarge {
-      @media (min-width: 769px) { @content; }
-    } @else if $size == desktop {
-      @media (min-width: 1300px) { @content; }
-    } @else if $size == bigdesktop {
-      @media (min-width: 1650px) { @content; }
+  @if $size == phone {
+    @media (max-width: 575px) {
+      @content;
+    }
+  } @else if $size == smalltab {
+    @media (min-width: 576px) {
+      @content;
+    }
+  } @else if $size == tabletlarge {
+    @media (min-width: 769px) {
+      @content;
+    }
+  } @else if $size == desktop {
+    @media (min-width: 1300px) {
+      @content;
+    }
+  } @else if $size == bigdesktop {
+    @media (min-width: 1650px) {
+      @content;
     }
   }
+}
