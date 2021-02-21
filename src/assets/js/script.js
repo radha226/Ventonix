@@ -25,6 +25,10 @@
 //         freeMode: true,
 //         watchSlidesVisibility: true,
 //         watchSlidesProgress: true,
+//         autoplay: {
+//             delay: 2500,
+//             disableOnInteraction: false,
+//           },
 //       });
 //       var galleryTop = new Swiper('.gallery-top', {
 //         spaceBetween: 10,
@@ -34,6 +38,10 @@
 //           nextEl: '.swiper-button-next',
 //           prevEl: '.swiper-button-prev',
 //         },
+//         autoplay: {
+//             delay: 2500,
+//             disableOnInteraction: false,
+//           },
 //         thumbs: {
 //           swiper: galleryThumbs
 //         }
@@ -71,6 +79,5 @@
 //           $("header").removeClass("header, scrolling_up");
 //         }
 //     });
-      
-// }, 1000);
+    //   }, 1000);
 
