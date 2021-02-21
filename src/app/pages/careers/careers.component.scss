@@ -13,11 +13,24 @@
 a:hover {
   text-decoration: none;
 }
+.Currentopenings {
+  h2 {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 67px 0 101px 0;
+    &:hover {
+      color: #009eff;
+    }
+  }
+  ul {
+    margin: 0 0 30px 0;
+  }
+}
 .Currentopenings-inner {
   ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+
     li {
       background: #f5f5f5;
       padding: 60px;
@@ -41,6 +54,9 @@ a:hover {
         top: 48%;
         right: 60px;
       }
+    }
+    li:hover {
+      border: 1px solid #009eff;
     }
   }
 }

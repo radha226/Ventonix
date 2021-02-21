@@ -26,17 +26,15 @@
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
-
+    line-height: 28px;
+    margin: 30px 0 35px;
     color: #262332;
-
     mix-blend-mode: normal;
     opacity: 0.5;
   }
 }
 .login-registration {
-  padding: 100px 0;
+  padding: 135px 0;
   .form-group {
     margin-bottom: 30px;
   }
@@ -77,4 +75,7 @@
   &:hover {
     transform: translateY(5px) scale(0.9);
   }
+}
+mat-error {
+  color: red;
 }
