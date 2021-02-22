@@ -4,9 +4,10 @@
     <div class="row">
       <div class="col-md-12">
         <div class="lts-inner">
-          <h2>{{ data?.desc }}</h2>
-          <a [routerLink]="[data?.link]" class="btn-white-border"
-            >Contact us now →</a
+          <h2>{{ data?.title }}</h2>
+          <p *ngIf="data?.desc">{{ data?.desc }}</p>
+          <a [routerLink]="[data?.link]" class="btn-white-border">
+            {{ data?.linkText }}→</a
           >
         </div>
       </div>

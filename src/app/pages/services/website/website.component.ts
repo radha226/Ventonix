@@ -7,8 +7,10 @@ import { Component, OnInit } from "@angular/core";
 })
 export class WebsiteComponent implements OnInit {
   data = {
-    desc: "Are you looking for Online Appointment?",
+    title: "Are you looking for Online Appointment?",
+    desc: "",
     link: "/contact",
+    linkText: "Contact us now",
   };
   constructor() {}
 
