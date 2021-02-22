@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-website',
-  templateUrl: './website.component.html',
-  styleUrls: ['./website.component.css']
+  selector: "app-website",
+  templateUrl: "./website.component.html",
+  styleUrls: ["./website.component.scss"],
 })
 export class WebsiteComponent implements OnInit {
+  data = {
+    desc: "Are you looking for Online Appointment?",
+    link: "/contact",
+  };
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

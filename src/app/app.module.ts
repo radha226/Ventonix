@@ -17,6 +17,8 @@ import { WebsiteComponent } from './pages/services/website/website.component';
 import { MobileAppComponent } from './pages/services/mobile-app/mobile-app.component';
 import { SeoComponent } from './pages/services/seo/seo.component';
 import { GraphicComponent } from './pages/services/graphic/graphic.component';
+import { OnlineAppointmentComponent } from './shared/components/online-appointment/online-appointment.component';
+import { RecentProjectsComponent } from './shared/components/recent-projects/recent-projects.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +34,8 @@ import { GraphicComponent } from './pages/services/graphic/graphic.component';
     MobileAppComponent,
     SeoComponent,
     GraphicComponent,
+    OnlineAppointmentComponent,
+    RecentProjectsComponent,
   ],
   imports: [
     BrowserModule,
