@@ -1,6 +1,17 @@
 footer {
   padding: 20px 0;
   background: #f5f5f5;
+  .logo {
+    span {
+      color: #262332;
+      font-family: Montserrat;
+      font-size: 14px;
+      letter-spacing: 0;
+      line-height: 18px;
+      text-align: center;
+      margin-left: 35px;
+    }
+  }
   ul {
     display: flex;
     list-style-type: none;
@@ -11,10 +22,12 @@ footer {
       padding: 0px 25px;
       a {
         color: #262332;
+        font-family: Montserrat;
         font-size: 14px;
-        font-weight: 400;
-        line-height: 17px;
+        letter-spacing: 0;
+        line-height: 18px;
         text-align: right;
+        font-weight: 500;
       }
     }
   }
