@@ -10,6 +10,9 @@
   //   filter: brightness(32);
   // }
 }
+.blueheader {
+  background: linear-gradient(117deg, #009eff 0%, #27c3d0 100%);
+}
 
 .navigation__checkbox {
   display: none;
@@ -185,6 +188,13 @@
 }
 .main-menu {
   transition: 0.3s ease all;
+  .whitemenu {
+    li {
+      a {
+        color: #fff;
+      }
+    }
+  }
   ul {
     display: flex;
     list-style-type: none;

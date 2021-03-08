@@ -302,23 +302,23 @@ span.swiper-pagination-bullet {
 }
 
 .sv-hero {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  position: relative;
-  z-index: 1;
-  padding-top: 30px !important;
-  &::after {
-    content: "";
-    position: absolute;
-    top: -148px;
-    width: 100%;
-    height: calc(100% + 150px);
-    z-index: -1;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // display: flex;
+  // align-items: center;
+  // position: relative;
+  // z-index: 1;
+  // padding-top: 30px !important;
+  // &::after {
+  //   content: "";
+  //   position: absolute;
+  //   top: -148px;
+  //   width: 100%;
+  //   height: calc(100% + 150px);
+  //   z-index: -1;
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  // }
 }
 
 // ******************  Media Query *******************
