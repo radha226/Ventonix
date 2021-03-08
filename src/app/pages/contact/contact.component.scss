@@ -1,9 +1,19 @@
 .sv-hero {
-  background-color: #f5f5f5;
-  &::after {
-    background-image: url("../../../assets/images/website-banner.PNG");
-    // background-image: url("../../../assets/images/about.svg");
-  }
+  padding: 4rem;
+  height: 400px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: #e00d0d;
+  //background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+  background-image: url(/../../assets/images/about-header-icon-3.svg),
+    url(/../../assets/images/about-header-icon-4.svg),
+    url(/../../assets/images/about-header-icon-1.svg),
+    url(/../../assets/images/about-header-icon-2.svg),
+    linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+  background-repeat: no-repeat;
+  background-position: 2% 80%, 70% 20%, 95% 57%, 88% 1051%, center center;
+  background-size: 17px, 15px, 30px, auto, 100%;
   h2 {
     color: #ffffff;
     font-size: 65px;
@@ -36,6 +46,10 @@
 // *******************work with us*********************
 .website-feature {
   padding: 200px 0 200px 0;
+  background-image: url(/../../assets/images/about-icon-5.svg),
+    url(/../../assets/images/about-icon-6.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 40%, 5% 80%;
   p {
     color: #262332;
     font-size: 20px;
