@@ -1,25 +1,25 @@
 .sv-hero {
-  padding: 4rem;
-  height: 400px !important;
+  padding: 130px 0 79px 0px;
+  height: auto !important;
   display: flex;
   justify-content: center;
   align-items: center;
-  // background-color: #e00d0d;
-  //background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
   background-image: url(/../../assets/images/about-header-icon-3.svg),
     url(/../../assets/images/about-header-icon-4.svg),
     url(/../../assets/images/about-header-icon-1.svg),
-    url(/../../assets/images/about-header-icon-2.svg),
+    url(/../../assets/images/contact-banner-1.svg),
     linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
   background-repeat: no-repeat;
-  background-position: 2% 80%, 70% 20%, 95% 57%, 88% 1051%, center center;
+  background-position: 2% 80%, 88% 29%, 95% 57%, 81% 128%, center center;
   background-size: 17px, 15px, 30px, auto, 100%;
+
   h2 {
     color: #ffffff;
     font-size: 65px;
     font-weight: 900;
     line-height: 78px;
-    margin-right: 323px;
+    margin-right: 688px;
+    margin-bottom: 130px;
   }
 }
 
@@ -28,10 +28,14 @@
 .btn.btn-main {
   background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
   border-radius: 5px;
-  padding: 15px 35px;
+  padding: 16px 46px;
   color: #fff;
   transition: 0.4s ease all;
-  margin: 30px 0 0 0;
+  margin: 0px 0 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
   &:hover {
     transform: translateY(5px) scale(0.9);
   }
@@ -45,7 +49,7 @@
 
 // *******************work with us*********************
 .website-feature {
-  padding: 200px 0 200px 0;
+  padding: 200px 0 170px 0;
   background-image: url(/../../assets/images/about-icon-5.svg),
     url(/../../assets/images/about-icon-6.svg);
   background-repeat: no-repeat;
@@ -54,9 +58,11 @@
     color: #262332;
     font-size: 20px;
     font-weight: 400;
-    line-height: 30px;
     max-width: 400px;
     font-family: Montserrat;
+    letter-spacing: 0;
+    line-height: 30px;
+    opacity: 0.5;
   }
   .tts {
     h2 {
@@ -85,17 +91,18 @@
 }
 
 // ********************contact form*******************
-.login-registration {
-  padding: 135px 0;
+.login-form {
+  // padding: 135px 0;
   .form-group {
     margin-bottom: 30px;
   }
   .form-control {
-    border-radius: 5px;
-    border: 2px solid #262332;
     padding: 10px 15px !important;
-    min-height: 44px;
+    min-height: 50px;
     margin-bottom: 30px;
+    width: 66%;
+    border: 2px solid #262332;
+    border-radius: 5px;
   }
   .form-check-label,
   .terms-condition {
@@ -116,7 +123,7 @@
 
 .find-out {
   background-color: #f5f5f5;
-  padding: 100px 0;
+  padding: 172px 0;
 }
 .fuom {
   color: #262332;
@@ -125,5 +132,14 @@
   line-height: 60px;
   text-align: center;
   letter-spacing: 1px;
-  margin-bottom: 60px;
+  margin-bottom: 68px;
+}
+
+// *****************media query**********************
+@media screen and (max-width: 1600px) {
+  .sv-hero {
+    h2 {
+      margin-right: 388px;
+    }
+  }
 }

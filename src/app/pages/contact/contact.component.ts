@@ -5,6 +5,7 @@ import {
   FormBuilder,
   Validators,
 } from "@angular/forms";
+import { HeaderService } from "src/app/shared/services/header.service";
 @Component({
   selector: "app-contact",
   templateUrl: "./contact.component.html",
@@ -12,9 +13,10 @@ import {
 })
 export class ContactComponent implements OnInit {
   contactUs: FormGroup;
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: FormBuilder, private headerService: HeaderService) {}
 
   ngOnInit(): void {
+    this.headerService.isHomePage.next(false);
     this.checkContactformValidation();
   }
   checkContactformValidation() {
