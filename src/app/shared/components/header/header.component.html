@@ -74,7 +74,8 @@
                   : '../../assets/images/close-whitemenu.svg'
               "
               width="40"
-              class="img-fluid c-p open-menu"
+              [ngClass]="isHomePage ? 'open-menu' : 'open-menu-white'"
+              class="img-fluid c-p"
               alt=""
               (click)="hideMenu()"
               *ngIf="showmenu"
