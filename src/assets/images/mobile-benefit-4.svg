@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>50EFA4EF-3CE2-404B-A073-4E78E7590762</title>
+    <defs>
+        <linearGradient x1="37.4979166%" y1="0%" x2="62.5020834%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Service---mobile-app" transform="translate(-1092.000000, -2467.000000)" fill="url(#linearGradient-1)">
+            <g id="icon/code-copy-3" transform="translate(1092.000000, 2467.000000)">
+                <path d="M26.4272917,6.64166667 L30.0789583,6.64166667 L30.0789583,0.281666667 C29.4489583,0.195 27.2822917,0 24.7589583,0 C19.4939583,0 15.8872917,3.31166667 15.8872917,9.39833333 L15.8872917,15 L10.0772917,15 L10.0772917,22.11 L15.8872917,22.11 L15.8872917,40 L23.010625,40 L23.010625,22.1116667 L28.585625,22.1116667 L29.470625,15.0016667 L23.0089583,15.0016667 L23.0089583,10.1033333 C23.010625,8.04833333 23.5639583,6.64166667 26.4272917,6.64166667 L26.4272917,6.64166667 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
