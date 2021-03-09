@@ -1,14 +1,24 @@
 .sv-hero {
-  background-color: #f5f5f5;
-  &::after {
-    background-image: url(../../../../assets/images/website-banner.PNG);
-  }
+  padding: 130px 0 79px 0px;
+  height: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/../../assets/images/about-header-icon-3.svg),
+    url(/../../assets/images/about-header-icon-4.svg),
+    url(/../../assets/images/about-header-icon-1.svg),
+    url(/../../assets/images/graphic-banner-1.svg),
+    linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+  background-repeat: no-repeat;
+  background-position: 2% 80%, 88% 29%, 95% 57%, 81% 100%, center center;
+  background-size: 17px, 15px, 30px, auto, 100%;
   h2 {
     color: #ffffff;
     font-size: 65px;
     font-weight: 900;
     line-height: 78px;
-    margin-right: 323px;
+    margin-right: 688px;
+    margin-bottom: 130px;
   }
 }
 
@@ -17,8 +27,13 @@ a.btn.btn-main {
   background-image: linear-gradient(to right, #009eff, #30ccc6, #009eff);
   background-size: 300% 100%;
   border-radius: 5px;
-  padding: 15px 35px;
+  padding: 16px 46px;
+  display: inline-block;
   color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
   moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
@@ -35,13 +50,17 @@ a.btn.btn-main {
 // *******************work with us*********************
 .website-feature {
   padding: 200px 0 200px 0;
+  background-image: url(/../../assets/images/about-icon-5.svg),
+    url(/../../assets/images/about-icon-6.svg);
+  background-repeat: no-repeat;
+  background-position: 96% 30%, 5% 88%;
   p {
+    opacity: 0.5;
     color: #262332;
     font-size: 20px;
-    font-weight: 400;
+    letter-spacing: 0;
     line-height: 30px;
     max-width: 400px;
-    font-family: Montserrat;
   }
   .tts {
     h2 {
@@ -56,7 +75,7 @@ a.btn.btn-main {
       list-style-type: none;
       padding: 0;
       li {
-        margin: 0 0 50px 0;
+        margin: 0 0 40px 0;
         display: flex;
         .icons {
           margin-right: 15px;
@@ -64,7 +83,7 @@ a.btn.btn-main {
       }
     }
     a {
-      margin-left: 26px;
+      // margin-left: 26px;
     }
   }
 }
@@ -72,7 +91,12 @@ a.btn.btn-main {
 // ***********************Specilize*******************
 .Specilize {
   background: #f5f5f5;
-  padding: 160px 0 150px 0;
+  background-image: url(/../../assets/images/about-icon-5.svg),
+    url(/../../assets/images/about-icon-6.svg),
+    url(/../../assets/images/about-icon-8.svg);
+  background-repeat: no-repeat;
+  background-position: 3% 53%, 95% 13%, 95% 94%;
+  padding: 188px 0 165px 0;
   .Specilize-title {
     h2 {
       color: #172127;
@@ -89,7 +113,7 @@ a.btn.btn-main {
       font-size: 20px;
       letter-spacing: 0;
       line-height: 30px;
-      margin: 30px 0 67px;
+      margin: 30px 21% 90px 0;
     }
   }
   .Specilize-list {
@@ -101,7 +125,7 @@ a.btn.btn-main {
         float: left;
         box-sizing: border-box;
         padding: 35px;
-        margin: 0px 20px 40px 0;
+        margin: 0px 20px 48px 0;
         .icons {
           display: flex;
           align-items: center;
@@ -116,7 +140,7 @@ a.btn.btn-main {
         }
       }
       li:nth-child(even) {
-        margin: 0px 0px 40px 20px;
+        margin: 0px 0px 48px 20px;
       }
     }
   }
@@ -128,5 +152,15 @@ a.btn.btn-main {
     margin-bottom: 60px;
     text-align: center;
     padding: 0 4%;
+  }
+}
+
+// ******************media queries****************
+@media screen and (max-width: 1700px) {
+  .sv-hero {
+    h2 {
+      margin-right: 295px;
+      margin-bottom: 180px;
+    }
   }
 }

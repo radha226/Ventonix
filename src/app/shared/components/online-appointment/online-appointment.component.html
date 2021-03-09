@@ -7,8 +7,9 @@
           <h2>{{ data?.title }}</h2>
           <p *ngIf="data?.desc">{{ data?.desc }}</p>
           <a [routerLink]="[data?.link]" class="btn-white-border">
-            {{ data?.linkText }}→</a
-          >
+            {{ data?.linkText }} &nbsp;<img
+              src="../../../../assets/images/arrow.svg"
+          /></a>
         </div>
       </div>
     </div>

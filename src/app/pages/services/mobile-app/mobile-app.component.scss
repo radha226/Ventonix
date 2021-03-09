@@ -53,7 +53,7 @@ a.btn.btn-main {
   background-image: url(/../../assets/images/about-icon-5.svg),
     url(/../../assets/images/about-icon-6.svg);
   background-repeat: no-repeat;
-  background-position: 96% 28%, 5% 69%;
+  background-position: 96% 30%, 5% 80%;
   p {
     opacity: 0.5;
     color: #262332;
@@ -63,6 +63,7 @@ a.btn.btn-main {
     max-width: 400px;
   }
   .tts {
+    margin-top: 20px;
     h2 {
       font-size: 24px;
       font-weight: bold;
@@ -100,7 +101,6 @@ a.btn.btn-main {
   .benefits-title {
     h2 {
       color: #172127;
-      font-family: Montserrat;
       font-size: 45px;
       font-weight: 800;
       letter-spacing: 1px;
@@ -109,7 +109,6 @@ a.btn.btn-main {
     p {
       opacity: 0.5;
       color: #262332;
-      font-family: Montserrat;
       font-size: 20px;
       letter-spacing: 0;
       line-height: 30px;
