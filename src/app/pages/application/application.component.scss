@@ -1,13 +1,23 @@
 .sv-hero {
-  background-color: #f5f5f5;
-  &::after {
-    background-image: url(../../../assets/images/join-team.svg);
-  }
+  height: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/../../assets/images/about-header-icon-3.svg),
+    url(/../../assets/images/about-header-icon-4.svg),
+    url(/../../assets/images/about-header-icon-1.svg),
+    url(/../../assets/images/career-banner-1.svg),
+    linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+  background-repeat: no-repeat;
+  background-position: 2% 80%, 88% 29%, 95% 57%, 81% 101%, center center;
+  background-size: 17px, 15px, 30px, auto, 100%;
   h2 {
     color: #ffffff;
     font-size: 65px;
     font-weight: 900;
     line-height: 79px;
+    margin-bottom: 60px;
+    margin-right: 180px;
   }
 }
 .lp-inner {
@@ -16,8 +26,7 @@
     font-weight: 800;
     font-size: 45px;
     line-height: 60px;
-    /* identical to box height, or 133% */
-
+    margin-right: 15%;
     letter-spacing: 1px;
 
     color: #262332;

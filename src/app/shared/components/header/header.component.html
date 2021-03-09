@@ -68,7 +68,11 @@
               *ngIf="!showmenu"
             />
             <img
-              src="../assets/images/close-menu.svg"
+              [src]="
+                isHomePage
+                  ? '../../assets/images/close-menu.svg'
+                  : '../../assets/images/close-whitemenu.svg'
+              "
               width="40"
               class="img-fluid c-p open-menu"
               alt=""

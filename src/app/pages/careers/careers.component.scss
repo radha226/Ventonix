@@ -1,19 +1,32 @@
 .sv-hero {
-  background-color: #f5f5f5;
-  &::after {
-    background-image: url(../../../assets/images/join-team.svg);
-  }
+  height: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/../../assets/images/about-header-icon-3.svg),
+    url(/../../assets/images/about-header-icon-4.svg),
+    url(/../../assets/images/about-header-icon-1.svg),
+    url(/../../assets/images/career-banner-1.svg),
+    linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+  background-repeat: no-repeat;
+  background-position: 2% 80%, 88% 29%, 95% 57%, 81% 101%, center center;
+  background-size: 17px, 15px, 30px, auto, 100%;
   h2 {
     color: #ffffff;
     font-size: 65px;
     font-weight: 900;
     line-height: 79px;
+    margin-bottom: 130px;
   }
 }
 a:hover {
   text-decoration: none;
 }
 .Currentopenings {
+  background-image: url(/../../assets/images/about-icon-5.svg),
+    url(/../../assets/images/about-icon-6.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 11%, 1% 29%;
   h2 {
     font-size: 45px;
     font-weight: 800;
@@ -36,7 +49,7 @@ a:hover {
       padding: 60px;
       position: relative;
       z-index: 1;
-      margin-bottom: 15px;
+      margin-bottom: 12px;
       h4 {
         color: #262332;
         font-size: 24px;
@@ -73,6 +86,15 @@ a:hover {
       &.active {
         border: 1px solid #009eff;
       }
+    }
+  }
+}
+
+// *****************media query**********************
+@media screen and (max-width: 1700px) {
+  .sv-hero {
+    h2 {
+      margin-right: 388px;
     }
   }
 }
