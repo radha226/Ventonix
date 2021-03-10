@@ -94,7 +94,7 @@
   position: relative;
   z-index: 1;
   .slide-content {
-    padding-left: 50px;
+    padding-right: 123px;
   }
   h4 {
     margin-bottom: 39px;
@@ -162,7 +162,8 @@
   padding: 180px 0 0 0;
   margin-bottom: 60px;
   .we-offer-inner {
-    margin-right: 70px;
+    margin-right: 50px;
+    padding-left: 109px;
     h5 {
       small {
         background: $primary-gradient;
@@ -181,10 +182,12 @@
       margin: 30px 0 35px 0;
     }
     p {
+      opacity: 0.5;
       color: #262332;
       font-size: 20px;
-      font-weight: 400;
-      line-height: 28px;
+      letter-spacing: 0;
+      line-height: 30px;
+      margin-right: 200px;
     }
   }
   .we-offer-inner1 {
@@ -206,7 +209,8 @@
         .services-offer {
           border-radius: 2px;
           border: 2px solid #f5f5f5;
-          padding: 36px 33px 36px 33px;
+          // padding: 36px 33px 36px 33px;
+          padding: 61px;
           min-height: 150px;
           width: 100%;
           h3 {
@@ -234,8 +238,8 @@
   }
   .of1 {
     position: absolute;
-    bottom: 90px;
-    left: 0;
+    bottom: 54px;
+    left: -28px;
   }
   .off2 {
     position: absolute;
@@ -271,13 +275,13 @@
   }
 }
 .work-with-us {
-  background-image: url(../../../assets/images/wwu.svg);
-  background-size: contain;
+  background-image: url(/../../assets/images/about-icon-6.svg),
+    url(/../../assets/images/about-icon-6.svg);
   background-repeat: no-repeat;
-  min-height: 100vh;
+  background-position: 96% 67%, 5% 69%;
   padding: 60px 60px 107px 60px;
-  background-position: bottom;
-  background-color: whitesmoke;
+  // background-position: bottom;
+  background-color: #f5f5f5;
   .work-with-inner {
     border-radius: 10px;
     background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
@@ -316,16 +320,25 @@
     // margin-top: 100px;
     h2 {
       color: #262332;
-      font-size: 30px;
+      font-size: 45px;
       font-weight: 800;
-      line-height: 31px;
+      line-height: 60px;
       margin-bottom: 10px;
       margin-top: 0;
     }
+    h4 {
+      color: #262332;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 32px;
+    }
     p {
+      opacity: 0.5;
       color: #262332;
       font-size: 20px;
-      font-weight: 500;
+      letter-spacing: 0;
       line-height: 30px;
     }
     ul {

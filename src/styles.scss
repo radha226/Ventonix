@@ -217,8 +217,12 @@ body {
   height: 80%;
   width: 100%;
   img {
-    width: 100%;
+    width: auto;
   }
+}
+.slider-main-image {
+  text-align: center;
+  padding-left: 64px;
 }
 
 .gallery-thumbs {
