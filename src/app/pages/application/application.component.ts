@@ -9,7 +9,6 @@ import { MatSnackBar } from "@angular/material/snack-bar";
 })
 export class ApplicationComponent implements OnInit {
   submitted = false;
-
   options = [
     {
       value: "Software engineer - React Js",
