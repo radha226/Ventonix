@@ -20,29 +20,7 @@
     margin-bottom: 130px;
   }
 }
-a.btn.btn-main {
-  background-image: linear-gradient(to right, #009eff, #30ccc6, #009eff);
-  background-size: 300% 100%;
-  border-radius: 5px;
-  padding: 16px 46px;
-  display: inline-block;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 0;
-  line-height: 24px;
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  &:hover {
-    background-position: 100% 0;
-    moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-  }
-}
+
 .work-with-us {
   padding: 200px 0 200px 0;
   background-image: url(/../../assets/images/about-icon-5.svg),
@@ -93,7 +71,7 @@ a.btn.btn-main {
     url(/../../assets/images/about-icon-6.svg),
     url(/../../assets/images/about-icon-8.svg);
   background-repeat: no-repeat;
-  background-position: 5% 70%, 95% 17%, 95% 95%;
+  background-position: 5% 54%, 95% 17%, 100% 93%;
   padding: 188px 0 165px 0;
   min-height: 100vh;
   display: flex;
@@ -126,7 +104,7 @@ a.btn.btn-main {
 }
 
 .lts {
-  padding: 180px 0;
+  //padding: 180px 0;
   h2 {
     margin-bottom: 60px;
     line-height: 52px;

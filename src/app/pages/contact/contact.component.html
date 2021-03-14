@@ -131,19 +131,20 @@
                   class="terms-condition"
                   for="flexCheckChecked"
                 >
-                  by clicking this, you are agree to our ‘terms & conditions’
+                  by clicking this, you are agree to our
+                  <a href="javascript:void(0)">‘terms & conditions’</a>
                 </label>
               </div>
             </div>
 
             <div class="form-group text-left">
-              <button class="btn btn-main" (click)="onSubmit(contactUs)">
+              <a class="btn btn-main" (click)="onSubmit(contactUs)">
                 <!-- <span
                   class="spinner-border spinner-border-sm mr-1"
                   *ngIf="applicationForm.valid"
                 ></span> -->
                 Submit <img src="../../../assets/images/arrow.svg" />
-              </button>
+              </a>
             </div>
           </form>
         </div>
