@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         watchSlidesVisibility: true,
         watchSlidesProgress: true,
         autoplay: {
-          delay: 1500,
+          delay: 3500,
           disableOnInteraction: false,
         },
       });
@@ -35,7 +35,7 @@ export class HomeComponent implements OnInit, OnDestroy {
           prevEl: ".swiper-button-prev",
         },
         autoplay: {
-          delay: 1500,
+          delay: 3500,
           disableOnInteraction: false,
         },
         thumbs: {
@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
       var swiper = new Swiper(".review12", {
         autoplay: {
-          delay: 2500,
+          delay: 3500,
           disableOnInteraction: false,
         },
         pagination: {

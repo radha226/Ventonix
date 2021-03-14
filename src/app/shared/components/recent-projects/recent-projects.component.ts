@@ -17,7 +17,7 @@ export class RecentProjectsComponent implements OnInit {
       watchSlidesVisibility: true,
       watchSlidesProgress: true,
       autoplay: {
-        delay: 1500,
+        delay: 3500,
         disableOnInteraction: false,
       },
     });
@@ -30,7 +30,7 @@ export class RecentProjectsComponent implements OnInit {
         prevEl: ".swiper-button-prev",
       },
       autoplay: {
-        delay: 1500,
+        delay: 3500,
         disableOnInteraction: false,
       },
       thumbs: {

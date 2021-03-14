@@ -1,15 +1,18 @@
 <!-- **************************lets start your project**************** -->
+
 <section class="lts">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="lts-inner">
-          <h2>{{ data?.title }}</h2>
-          <p *ngIf="data?.desc">{{ data?.desc }}</p>
-          <a [routerLink]="[data?.link]" class="btn-white-border">
-            {{ data?.linkText }} &nbsp;<img
-              src="../../../../assets/images/arrow.svg"
-          /></a>
+  <div class="lts-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="lts-inner">
+            <h2>{{ data?.title }}</h2>
+            <p *ngIf="data?.desc">{{ data?.desc }}</p>
+            <a [routerLink]="[data?.link]" class="btn-white-border">
+              {{ data?.linkText }} &nbsp;<img
+                src="../../../../assets/images/arrow.svg"
+            /></a>
+          </div>
         </div>
       </div>
     </div>

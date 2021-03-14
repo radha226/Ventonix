@@ -8,7 +8,7 @@
   position: relative;
   z-index: 1;
   .slide-content {
-    padding-left: 50px;
+    padding-right: 123px;
     h2 {
       color: #172127;
       font-size: 45px;
@@ -26,7 +26,10 @@
   }
   h4 {
     margin-bottom: 39px;
-    color: #0faded;
+    //color:
+    background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
   }
   a.btn.btn-main {
@@ -58,6 +61,7 @@
   }
   .slider-icon {
     width: auto;
+    margin-left: 10px;
   }
   span.img-bg-1 img:last-child {
     position: absolute;

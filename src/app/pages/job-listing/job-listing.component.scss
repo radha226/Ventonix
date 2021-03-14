@@ -35,36 +35,38 @@
   margin-bottom: 70px;
   padding: 18px 46px;
   display: inline-block;
+  span {
+    margin-left: 10px;
+    font-size: 23px;
+    color: #30ccc6;
+  }
   &:hover {
     transform: scale(0.9);
   }
-  span {
-    color: #30ccc6;
-  }
 }
-a.btn.btn-main {
-  background-image: linear-gradient(to right, #009eff, #30ccc6, #009eff);
-  background-size: 300% 100%;
-  border-radius: 5px;
-  padding: 17px 46px;
-  display: inline-block;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 0;
-  line-height: 24px;
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  &:hover {
-    background-position: 100% 0;
-    moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-  }
-}
+// a.btn.btn-main {
+//   background-image: linear-gradient(to right, #009eff, #30ccc6, #009eff);
+//   background-size: 300% 100%;
+//   border-radius: 5px;
+//   padding: 17px 46px;
+//   display: inline-block;
+//   color: #fff;
+//   font-size: 20px;
+//   font-weight: bold;
+//   letter-spacing: 0;
+//   line-height: 24px;
+//   moz-transition: all 0.4s ease-in-out;
+//   -o-transition: all 0.4s ease-in-out;
+//   -webkit-transition: all 0.4s ease-in-out;
+//   transition: all 0.4s ease-in-out;
+//   &:hover {
+//     background-position: 100% 0;
+//     moz-transition: all 0.4s ease-in-out;
+//     -o-transition: all 0.4s ease-in-out;
+//     -webkit-transition: all 0.4s ease-in-out;
+//     transition: all 0.4s ease-in-out;
+//   }
+// }
 .job-details {
   background-image: url(/../../assets/images/about-icon-5.svg),
     url(/../../assets/images/about-icon-6.svg);
