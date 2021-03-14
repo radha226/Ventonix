@@ -24,33 +24,10 @@
       line-height: 30px;
       margin: 30px 0 44px 0;
     }
-    a.btn.btn-main {
-      background-size: 300% 100%;
-      background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
-      border-radius: 5px;
-      padding: 19px 36px;
-      color: #fff;
-      moz-transition: all 0.4s ease-in-out;
-      -o-transition: all 0.4s ease-in-out;
-      -webkit-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out;
-      font-size: 20px;
-      font-weight: bold;
-      letter-spacing: 0;
-      line-height: 24px;
-      margin-bottom: 140px;
-      &:hover {
-        background-position: 100% 0;
-        moz-transition: all 0.4s ease-in-out;
-        -o-transition: all 0.4s ease-in-out;
-        -webkit-transition: all 0.4s ease-in-out;
-        transition: all 0.4s ease-in-out;
-      }
-    }
     .hero-inner-img {
       position: absolute;
       bottom: 0;
-      left: 0;
+      left: -42px;
     }
   }
   .hero-svg {
@@ -140,6 +117,7 @@
   }
   .slider-icon {
     width: auto;
+    margin-left: 10px;
   }
   span.img-bg-1 img:first-child {
     position: absolute;
@@ -187,7 +165,7 @@
       font-size: 20px;
       letter-spacing: 0;
       line-height: 30px;
-      margin-right: 200px;
+      margin-right: 62px;
     }
   }
   .we-offer-inner1 {
@@ -204,8 +182,8 @@
         flex: 0 0 50%;
         max-width: 50%;
         display: flex;
-        padding-right: 30px;
-        margin-bottom: 30px;
+        padding-right: 66px;
+        margin-bottom: 60px;
         .services-offer {
           border-radius: 2px;
           border: 2px solid #f5f5f5;
@@ -245,6 +223,7 @@
     position: absolute;
     right: 0;
     z-index: -1;
+    top: 73px;
   }
 }
 .numbers {
@@ -275,13 +254,14 @@
   }
 }
 .work-with-us {
-  background-image: url(/../../assets/images/about-icon-6.svg),
-    url(/../../assets/images/about-icon-6.svg);
+  background-image: url(/../../assets/images/home-work-icon-1.svg),
+    url(/../../assets/images/home-work-icon-2.svg),
+    url(/../../assets/images/home-work-icon-3.svg);
   background-repeat: no-repeat;
-  background-position: 96% 67%, 5% 69%;
+  background-position: 2% 59%, 14% 93%, 94% 76%;
   padding: 60px 60px 107px 60px;
-  // background-position: bottom;
   background-color: #f5f5f5;
+  background-size: 4%, 8%, 5%;
   .work-with-inner {
     border-radius: 10px;
     background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
@@ -349,7 +329,7 @@
         margin: 50px 0;
         display: flex;
         .icons {
-          margin-right: 15px;
+          margin-right: 20px;
         }
         h2 {
           color: #262332;
@@ -376,7 +356,7 @@
   align-items: center;
   min-height: 100vh;
   text-align: center;
-  padding: 190px 0;
+  padding: 190px 0 140px;
   .title {
     h2 {
       color: #262332;
@@ -432,7 +412,7 @@
   filter: none !important;
 }
 .lts {
-  padding: 180px 0;
+  // padding: 180px 0;
   h2 {
     margin-bottom: 60px;
   }

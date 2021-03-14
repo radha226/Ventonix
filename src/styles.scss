@@ -1,5 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @import "assets/scss/mixin.scss";
 @import "assets/scss/color.scss";
 
@@ -13,18 +15,14 @@ html,
 body {
   height: 100%;
 }
-body {
-  //margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif, Roboto, "Helvetica Neue", sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  // height: auto !important;
   .left {
     float: left;
   }
@@ -258,12 +256,9 @@ span.swiper-pagination-bullet {
   background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%) !important;
 }
 .lts {
-  background-image: url(assets/images/lsypn.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 70vh;
-  display: flex;
-  align-items: center;
+  padding: 60px 60px 107px 60px;
+  background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+
   text-align: center;
   h2 {
     color: #ffffff;
@@ -291,6 +286,9 @@ span.swiper-pagination-bullet {
     -o-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+    img {
+      margin-left: 10px;
+    }
     &:hover {
       background-position: 100% 0;
       moz-transition: all 0.4s ease-in-out;
@@ -301,6 +299,16 @@ span.swiper-pagination-bullet {
       // -webkit-background-clip: text !important;
       // -webkit-text-fill-color: transparent;
     }
+  }
+  .lts-container {
+    background-image: url(/../../assets/images/common-blue-icon-1.svg),
+      url(/../../assets/images/common-blue-icon-2.svg),
+      url(/../../assets/images/common-blue-icon-3.svg),
+      url(/../../assets/images/common-blue-icon-4.svg);
+    background-repeat: no-repeat;
+    background-position: 3% 12%, 14% 93%, 90% 20%, 102% 83%;
+    background-size: 4%, 1%, 1%, 8%;
+    padding: 130px 0;
   }
 }
 
@@ -322,6 +330,26 @@ span.swiper-pagination-bullet {
   //   background-size: cover;
   //   background-repeat: no-repeat;
   // }
+}
+
+// ************************common button********************
+a.btn.btn-main {
+  border-radius: 5px;
+  background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+  padding: 19px 36px;
+  color: #fff;
+  transition: 0.4s ease all;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 140px;
+  img {
+    margin-left: 10px;
+  }
+  &:hover {
+    transform: translateY(5px) scale(0.9);
+  }
 }
 
 // ******************  Media Query *******************
