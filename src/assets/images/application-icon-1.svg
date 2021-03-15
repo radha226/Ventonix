@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/attach</title>
+    <defs>
+        <linearGradient x1="37.5%" y1="0%" x2="62.5%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/attach" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <path d="M10.6959415,3.29594155 L10.6959415,13.7959415 C10.6959415,14.6243687 10.0243687,15.2959415 9.19594155,15.2959415 C8.36751442,15.2959415 7.69594155,14.6243687 7.69594155,13.7959415 L7.69594155,3.29594155 C7.69594155,1.6390873 9.0390873,0.295941546 10.6959415,0.295941546 C12.3527958,0.295941546 13.6959415,1.6390873 13.6959415,3.29594155 L13.6959415,13.7959415 C13.6959415,16.2812229 11.6812229,18.2959415 9.19594155,18.2959415 C6.71066017,18.2959415 4.69594155,16.2812229 4.69594155,13.7959415 L4.69594155,3.29594155 L4.69594155,3.29594155" id="Path-8" stroke="url(#linearGradient-1)" stroke-width="2" transform="translate(9.195942, 9.295942) scale(-1, 1) rotate(-45.000000) translate(-9.195942, -9.295942) "></path>
+    </g>
+</svg>

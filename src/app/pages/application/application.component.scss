@@ -43,6 +43,10 @@
   }
 }
 .login-registration {
+  background-image: url(/../../assets/images/application-icon-2.svg),
+    url(/../../assets/images/application-icon-3.svg);
+  background-repeat: no-repeat;
+  background-position: 1% 40%, 100% 73%;
   padding: 135px 0;
   .form-group {
     margin-bottom: 30px;
@@ -52,7 +56,15 @@
     border: 2px solid #262332;
     // padding: 10px 15px !important;
     min-height: 44px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+  }
+  .resume {
+    position: relative;
+    img {
+      position: absolute;
+      right: 15px;
+      top: 13px;
+    }
   }
   .form-check-label {
     color: #262332;

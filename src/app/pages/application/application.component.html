@@ -190,13 +190,19 @@
 
             <div class="form-group">
               <label>Attach resume</label>
-              <input
-                type="file"
-                placeholder="Attach resume (PDF/Doc only)"
-                formControlName="resume"
-                class="form-control"
-                autocomplete="current-resume"
-              />
+              <div class="resume">
+                <input
+                  type="file"
+                  placeholder="Attach resume (PDF/Doc only)"
+                  formControlName="resume"
+                  class="form-control"
+                  autocomplete="current-resume"
+                />
+                <img
+                  src="../../assets/images/application-icon-1.svg"
+                  alt="icon"
+                />
+              </div>
               <div *ngIf="formName.resume.invalid && formName.resume.touched">
                 <div *ngIf="formName.resume.errors.required">
                   <mat-error> Attach resume is required</mat-error>
