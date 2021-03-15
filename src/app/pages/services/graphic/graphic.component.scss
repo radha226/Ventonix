@@ -23,33 +23,10 @@
 }
 
 // ********************button****************
-a.btn.btn-main {
-  background-image: linear-gradient(to right, #009eff, #30ccc6, #009eff);
-  background-size: 300% 100%;
-  border-radius: 5px;
-  padding: 16px 46px;
-  display: inline-block;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 0;
-  line-height: 24px;
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  &:hover {
-    background-position: 100% 0;
-    moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-  }
-}
 
 // *******************work with us*********************
 .website-feature {
-  padding: 200px 0 200px 0;
+  padding: 200px 0 100px 0;
   background-image: url(/../../assets/images/about-icon-5.svg),
     url(/../../assets/images/about-icon-6.svg);
   background-repeat: no-repeat;
@@ -95,7 +72,7 @@ a.btn.btn-main {
     url(/../../assets/images/about-icon-6.svg),
     url(/../../assets/images/about-icon-8.svg);
   background-repeat: no-repeat;
-  background-position: 3% 53%, 95% 13%, 95% 94%;
+  background-position: 3% 53%, 95% 13%, 100% 94%;
   padding: 188px 0 165px 0;
   .Specilize-title {
     h2 {
@@ -121,11 +98,12 @@ a.btn.btn-main {
       li {
         background: #fff;
         border-radius: 2px;
-        width: 48%;
+        width: 31%;
         float: left;
         box-sizing: border-box;
         padding: 35px;
-        margin: 0px 20px 48px 0;
+        margin: 0px 48px 48px 0;
+        height: 105px;
         .icons {
           display: flex;
           align-items: center;
@@ -139,19 +117,31 @@ a.btn.btn-main {
           }
         }
       }
-      li:nth-child(even) {
-        margin: 0px 0px 48px 20px;
+      li:nth-child(3),
+      li:nth-child(6),
+      li:nth-child(9),
+      li:nth-child(12) {
+        margin: 0px 0px 48px 0px;
       }
     }
   }
 }
 
 .lts {
-  padding: 180px 0;
+  // padding: 180px 0;
   h2 {
-    margin-bottom: 60px;
+    margin-bottom: 26px;
     text-align: center;
-    padding: 0 4%;
+    padding: 0 19%;
+  }
+  p {
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px 0 74px;
+    padding: 0% 21%;
   }
 }
 

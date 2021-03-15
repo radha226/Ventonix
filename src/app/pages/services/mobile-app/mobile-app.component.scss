@@ -49,7 +49,7 @@
 
 // *******************work with us*********************
 .website-feature {
-  padding: 200px 0 200px 0;
+  padding: 200px 0 100px 0;
   background-image: url(/../../assets/images/about-icon-5.svg),
     url(/../../assets/images/about-icon-6.svg);
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@
     url(/../../assets/images/about-icon-6.svg),
     url(/../../assets/images/about-icon-8.svg);
   background-repeat: no-repeat;
-  background-position: 3% 53%, 95% 13%, 95% 94%;
+  background-position: 3% 53%, 95% 13%, 100% 94%;
   padding: 188px 0 165px 0;
   .benefits-title {
     h2 {
@@ -125,6 +125,8 @@
         box-sizing: border-box;
         padding: 60px;
         margin: 0px 48px 48px 0;
+
+        max-height: 315px;
         h4 {
           color: #262332;
           font-family: Montserrat;
@@ -150,11 +152,20 @@
 }
 
 .lts {
-  padding: 180px 0;
+  // padding: 180px 0;
   h2 {
-    margin-bottom: 60px;
+    margin-bottom: 15px;
     text-align: center;
-    padding: 0 4%;
+    padding: 0 28%;
+  }
+  p {
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px 0 68px;
+    padding: 0% 32%;
   }
 }
 
