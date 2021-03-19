@@ -597,4 +597,51 @@
       width: 80%;
     }
   }
+
+  .we-offre {
+    .we-offer-inner1 {
+      ul {
+        li {
+          .services-offer {
+            h3 {
+              font-size: 19px;
+              margin: 15px 0;
+              br {
+                display: none;
+              }
+            }
+            a {
+              margin-bottom: 20px;
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .work-with-us {
+    background-image: none;
+    .col-md-4 .tts {
+      margin: 23px 0;
+      h2 {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .lts {
+    .lts-container {
+      background-image: none;
+    }
+  }
+  .numbers {
+    .numbers-title {
+      h2 {
+        max-width: 100%;
+      }
+    }
+  }
 }

@@ -453,7 +453,6 @@ a.btn.btn-main {
     margin-bottom: 0px !important;
   }
   section.work-with-us {
-    padding: 0 !important;
   }
   .tts h2 {
     margin-top: 20px;
@@ -475,9 +474,13 @@ a.btn.btn-main {
     right: 0 !important;
   }
   a.btn.btn-main,
-  .slide-project a.btn.btn-border {
-    padding: 16px 28px;
+  .slide-project a.btn.btn-border,
+  .lts a {
+    padding: 11px 28px;
     font-size: 15px;
+  }
+  section {
+    padding: 80px 0;
   }
 }
 @media screen and (max-width: 1100px) {

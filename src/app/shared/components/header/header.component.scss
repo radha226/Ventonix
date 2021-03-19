@@ -292,3 +292,47 @@ header.scrolling_up {
   padding: 10px;
   z-index: 999999;
 }
+
+// ****************media query***********************
+@media screen and (max-width: 1200px) {
+  .side-menu img,
+  .open-menu {
+    max-width: none;
+    width: 34px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .side-menu img {
+    position: relative;
+    top: -41px;
+    width: 82%;
+  }
+  .main-menu {
+    position: absolute;
+    background: #1ab7e1;
+    width: 100%;
+    top: 10px;
+    ul {
+      flex-direction: column;
+      padding: 10px;
+      li {
+        a {
+          text-align: center;
+          color: black;
+          font-size: 17px;
+          padding: 5px;
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+    .whitemenu {
+      li {
+        a {
+        }
+      }
+    }
+  }
+}

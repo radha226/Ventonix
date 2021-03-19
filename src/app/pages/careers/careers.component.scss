@@ -94,7 +94,85 @@ a:hover {
 @media screen and (max-width: 1700px) {
   .sv-hero {
     h2 {
+      font-size: 50px;
       margin-right: 388px;
+    }
+  }
+}
+@media screen and (max-width: 1600px) {
+  .sv-hero {
+    h2 {
+      margin-right: 388px;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .sv-hero {
+    padding: 60px 0 59px 0px;
+    background-position: 2% 80%, 89% 29%, 96% 57%, 83% 104%, center center;
+    background-size: 17px, 15px, 30px, 30%, 100%;
+
+    h2 {
+      font-size: 30px !important;
+      line-height: 40px !important;
+    }
+  }
+
+  .Currentopenings {
+    padding: 30px 0;
+    h2 {
+      margin: 67px 0 60px 0;
+    }
+    ul {
+      margin: 0 0 30px 0;
+    }
+  }
+
+  .Currentopenings-inner {
+    ul {
+      li {
+        padding: 40px;
+        h4 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sv-hero {
+    padding: 39px 0 0px 0px;
+    background-image: none;
+    background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+    h2 {
+      margin-right: 0;
+    }
+  }
+  .Currentopenings {
+    padding: 10px 0;
+    background-image: none;
+    h2 {
+      margin: 67px 0 30px 0;
+    }
+    ul {
+      margin: 0 0 30px 0;
+    }
+  }
+
+  .Currentopenings-inner {
+    ul {
+      li {
+        padding: 20px;
+        img {
+          right: 20px;
+          width: 18px;
+        }
+        h4 {
+          font-size: 17px;
+        }
+      }
     }
   }
 }
