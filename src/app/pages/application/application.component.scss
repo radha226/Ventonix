@@ -100,3 +100,68 @@
 mat-error {
   color: red;
 }
+
+// *****************media query**********************
+@media screen and (max-width: 1700px) {
+  .sv-hero {
+    h2 {
+      font-size: 50px;
+      margin-right: 388px;
+    }
+  }
+
+  .login-registration {
+    background-position: 9% 96%, 100% 73%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .login-registration {
+    padding: 110px 0;
+  }
+  .lp-inner {
+    h2 {
+      font-size: 40px;
+    }
+    p {
+      margin: 20px 0 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .login-registration {
+    padding: 70px 0 110px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sv-hero {
+    padding: 39px 0 0px 0px;
+    background-image: none;
+    background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+    h2 {
+      margin-right: 0;
+    }
+  }
+  .login-registration {
+    background-image: none;
+    padding: 70px 0 20px;
+    .pr-0 {
+      padding-left: 0;
+    }
+  }
+  mat-error {
+    font-size: 14px;
+  }
+  a.btn.btn-main img {
+    margin-left: 1px;
+    width: 15px;
+  }
+  .btn.btn-main {
+    img {
+      margin-left: 4px;
+      width: 15px;
+    }
+  }
+}

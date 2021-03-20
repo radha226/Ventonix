@@ -386,7 +386,7 @@ a.btn.btn-main {
   }
   p {
     font-size: 16px !important;
-    line-height: 23px !important;
+    line-height: 27px !important;
   }
   span.count.percent {
     font-size: 30px !important;
@@ -402,11 +402,28 @@ a.btn.btn-main {
   }
   a.btn.btn-main,
   .slide-project a.btn.btn-border {
-    padding: 16px 28px;
+    padding: 11px 21px;
     font-size: 17px;
+    img {
+      margin-left: 0px;
+      width: 16px;
+    }
   }
 }
 @media screen and (max-width: 767px) {
+  .lts {
+    .lts-container {
+      background-image: none;
+    }
+    h2 {
+      padding: 0 !important;
+      margin-bottom: 22px !important;
+    }
+    p {
+      padding: 0 !important;
+      margin-bottom: 50px !important;
+    }
+  }
   img.img-fluid.of1 {
     display: none;
   }
@@ -425,8 +442,8 @@ a.btn.btn-main {
     line-height: 1.2 !important;
   }
   p {
-    font-size: 14px !important;
-    line-height: 23px !important;
+    font-size: 15px !important;
+    line-height: 28px !important;
   }
   .slide-content h2 {
     margin-top: 15px;

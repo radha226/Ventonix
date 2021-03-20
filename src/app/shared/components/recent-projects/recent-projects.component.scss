@@ -93,3 +93,103 @@
     }
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .slide-project {
+    padding: 100px 0 0px 0;
+    .slide-content {
+      padding-right: 0;
+      h2 {
+        font-size: 21px !important;
+      }
+      p {
+        opacity: 0.5;
+        color: #262332;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 30px;
+      }
+    }
+    h4 {
+      // margin-bottom: 39px;
+
+      // background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+      // font-weight: 700;
+    }
+    a.btn.btn-main {
+      font-size: 16px;
+      padding: 13px 32px;
+      img {
+        margin-left: 0px;
+        width: 15px;
+      }
+    }
+    span.img-bg-1 img:first-child {
+      top: 43px;
+    }
+    // .slider-icon {
+    //   width: auto;
+    //   margin-left: 10px;
+    // }
+    // span.img-bg-1 img:last-child {
+    //   position: absolute;
+    //   right: 150px;
+    //   top: 24%;
+    // }
+    .gallery-top {
+      margin: 45px 0 0px 0 !important;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider-main-image {
+    padding-left: 0;
+  }
+  .gallery-top img {
+    width: 100%;
+  }
+  .slide-project {
+    padding: 72px 0 0px 0;
+    h4 {
+      font-size: 20px;
+    }
+    .slide-content {
+      padding-right: 0;
+      h2 {
+        font-size: 21px !important;
+        margin-top: 40px;
+      }
+      .my-5 {
+        margin: 20px 0 !important;
+      }
+    }
+    h4 {
+      // margin-bottom: 39px;
+
+      // background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+      // font-weight: 700;
+    }
+    a.btn.btn-main {
+      font-size: 16px;
+      padding: 13px 32px;
+      margin-bottom: 75px;
+      img {
+        margin-left: 0px;
+        width: 15px;
+      }
+    }
+    span.img-bg-1 img:first-child,
+    span.img-bg-1 img:last-child {
+      display: none;
+    }
+
+    .gallery-top {
+      margin: 45px 0 0px 0 !important;
+    }
+  }
+}
