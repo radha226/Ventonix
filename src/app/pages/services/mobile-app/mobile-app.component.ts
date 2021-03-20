@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { HeaderService } from "src/app/shared/services/header.service";
 
 @Component({
   selector: "app-mobile-app",
@@ -13,7 +14,9 @@ export class MobileAppComponent implements OnInit {
     link: "/contact",
     linkText: "Get a quote",
   };
-  constructor() {}
+  constructor(private headerService: HeaderService) {
+    this.headerService.isHomePage.next(false);
+  }
 
   ngOnInit(): void {}
 }

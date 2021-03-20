@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { HeaderService } from "src/app/shared/services/header.service";
 
 @Component({
   selector: "app-website",
@@ -12,7 +13,9 @@ export class WebsiteComponent implements OnInit {
     link: "/contact",
     linkText: "Contact us now",
   };
-  constructor() {}
+  constructor(private headerService: HeaderService) {
+    this.headerService.isHomePage.next(false);
+  }
 
   ngOnInit(): void {}
 }

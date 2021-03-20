@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { HeaderService } from "src/app/shared/services/header.service";
 
 @Component({
   selector: "app-careers",
@@ -48,8 +49,9 @@ export class CareersComponent implements OnInit {
       id: 8,
     },
   ];
-  constructor() {
+  constructor(private headerService: HeaderService) {
     window.scrollTo(0, 0);
+    this.headerService.isHomePage.next(false);
   }
 
   ngOnInit(): void {}

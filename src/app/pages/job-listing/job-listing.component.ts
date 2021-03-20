@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
+import { HeaderService } from "src/app/shared/services/header.service";
 
 @Component({
   selector: "app-job-listing",
@@ -394,7 +395,12 @@ export class JobListingComponent implements OnInit {
       id: 8,
     },
   ];
-  constructor(private route: ActivatedRoute) {}
+  constructor(
+    private route: ActivatedRoute,
+    private headerService: HeaderService
+  ) {
+    this.headerService.isHomePage.next(false);
+  }
 
   ngOnInit(): void {
     window.scrollTo(0, 0);
