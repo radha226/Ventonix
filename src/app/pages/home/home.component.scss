@@ -599,7 +599,15 @@
   }
 
   .we-offre {
+    margin-bottom: 0;
+    .off2 {
+      display: none;
+    }
+    .we-offer-inner {
+      padding-left: 0px;
+    }
     .we-offer-inner1 {
+      margin-bottom: 0;
       ul {
         li {
           .services-offer {
@@ -621,9 +629,11 @@
   }
 
   .work-with-us {
+    padding-bottom: 50px;
+    padding-top: 71px;
     background-image: none;
     .col-md-4 .tts {
-      margin: 23px 0;
+      margin: 23px 0 15px;
       h2 {
         br {
           display: none;

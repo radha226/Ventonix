@@ -19,7 +19,7 @@
       </div>
       <div class="col-sm-12 col-md-6">
         <div class="d-flex justify-content-end align-items-center side-menu">
-          <div class="main-menu" *ngIf="showmenu">
+          <div class="main-menu desktop-menu" *ngIf="showmenu">
             <ul [ngClass]="isHomePage ? 'blackmenu' : 'whitemenu'">
               <li>
                 <a [routerLink]="['/home']" routerLinkActive="active">Home</a>
@@ -85,5 +85,40 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="main-menu mobile-menu" *ngIf="showmenu">
+    <ul [ngClass]="isHomePage ? 'blackmenu' : 'whitemenu'">
+      <li>
+        <a [routerLink]="['/home']" routerLinkActive="active">Home</a>
+      </li>
+
+      <li>
+        <a [routerLink]="['/about']" routerLinkActive="active">About</a>
+      </li>
+      <li>
+        <a [routerLink]="['/contact']" routerLinkActive="active">Contact</a>
+      </li>
+      <li>
+        <a>Services</a>
+        <ul class="dropdown-menu">
+          <li>
+            <a [routerLink]="['/website']">Website</a>
+          </li>
+          <li>
+            <a [routerLink]="['/mobile']">Mobile App</a>
+          </li>
+          <li>
+            <a [routerLink]="['/seo']">SEO</a>
+          </li>
+          <li>
+            <a [routerLink]="['/graphic']">Graphic Design</a>
+          </li>
+        </ul>
+      </li>
+
+      <!-- <li>
+        <a (click)="hideMenu()" [routerLink]="['/contact']">Contact</a>
+      </li> -->
+    </ul>
   </div>
 </div>

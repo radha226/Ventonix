@@ -12,8 +12,10 @@ export class HeaderComponent implements OnInit {
   constructor(private headerService: HeaderService) {}
   isHomePage: boolean = true;
   ngOnInit(): void {
+    console.log("header");
     this.headerService.isHomePage.subscribe((res) => {
       this.isHomePage = res;
+      this.showmenu = false;
       // console.log("value", this.isHomePage);
     });
   }

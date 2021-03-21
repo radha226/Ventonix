@@ -171,12 +171,15 @@
 @media screen and (max-width: 767px) {
   .work-with-us {
     background-image: none;
-    padding: 100px 0 0px 0;
+    padding: 70px 0 0px 0;
     .tts {
       margin-top: 30px;
       h2 {
-        font-size: 18px !important;
+        font-size: 16px !important;
         margin: 0;
+      }
+      a {
+        margin-bottom: 70px;
       }
     }
   }

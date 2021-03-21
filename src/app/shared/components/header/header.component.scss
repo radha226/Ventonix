@@ -10,6 +10,9 @@
   //   filter: brightness(32);
   // }
 }
+.mobile-menu {
+  display: none;
+}
 .blueheader {
   background: linear-gradient(117deg, #009eff 0%, #27c3d0 100%);
 }
@@ -298,21 +301,27 @@ header.scrolling_up {
   .side-menu img,
   .open-menu {
     max-width: none;
-    width: 34px;
+    width: 17px;
   }
 }
 
 @media screen and (max-width: 767px) {
+  .desktop-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
   .side-menu img {
     position: relative;
     top: -41px;
     width: 82%;
   }
   .main-menu {
-    position: absolute;
     background: #1ab7e1;
     width: 100%;
     top: 10px;
+    // border-bottom: 1px solid #ffffff66;
     ul {
       flex-direction: column;
       padding: 10px;
@@ -326,11 +335,18 @@ header.scrolling_up {
             color: #fff;
           }
         }
+        .dropdown-menu {
+          left: 41%;
+          top: 54px;
+        }
       }
     }
     .whitemenu {
       li {
         a {
+          &:hover {
+            color: #000;
+          }
         }
       }
     }
