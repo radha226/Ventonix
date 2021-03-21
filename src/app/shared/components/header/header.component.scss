@@ -297,8 +297,23 @@ header.scrolling_up {
 }
 
 // ****************media query***********************
+@media screen and (max-width: 1700px) {
+  .menu {
+    .close-menu {
+      width: 25px;
+    }
+  }
+}
 @media screen and (max-width: 1200px) {
-  .side-menu img,
+  .side-menu {
+    img {
+      max-width: none;
+      width: 32px;
+    }
+    .open-menu-white {
+      width: 18px;
+    }
+  }
   .open-menu {
     max-width: none;
     width: 17px;

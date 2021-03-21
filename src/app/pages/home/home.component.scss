@@ -655,3 +655,13 @@
     }
   }
 }
+@media screen and (max-width: 600px) {
+  .slider-main-image {
+    img {
+      width: 100%;
+    }
+  }
+  .work-with-us {
+    padding: 60px 0px 50px 0px;
+  }
+}
