@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B15F0B37-3076-41AE-A683-BDF75D52459A@</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.21875%" x2="100%" y2="50.78125%" id="linearGradient-2">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="34.1796875%" x2="100%" y2="65.8203125%" id="linearGradient-3">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Service---seo" transform="translate(-482.000000, -2090.000000)">
+            <g id="icon/code" transform="translate(482.000000, 2090.000000)">
+                <path d="M32,0 C33.1045695,0 34,0.8954305 34,2 L34,7 L38,7 C39.1045695,7 40,7.8954305 40,9 L40,31 C40,32.1045695 39.1045695,33 38,33 L23,33 L23,37 L25.5,37 C26.3284271,37 27,37.6715729 27,38.5 C27,39.3284271 26.3284271,40 25.5,40 L14.5,40 C13.6715729,40 13,39.3284271 13,38.5 C13,37.6715729 13.6715729,37 14.5,37 L17,37 L17,33 L2,33 C0.8954305,33 0,32.1045695 0,31 L0,9 C0,7.8954305 0.8954305,7 2,7 L6,7 L6,2 C6,0.8954305 6.8954305,0 8,0 L32,0 Z M6,10 L3,10 L3,30 L6,30 L6,10 Z M9,30 L31,30 L31,3 L9,3 L9,30 Z M37,10 L34,10 L34,30 L37,30 L37,10 Z" id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-6" fill="url(#linearGradient-2)" x="12" y="25" width="16" height="2"></rect>
+                <rect id="Rectangle-Copy-3" fill="url(#linearGradient-1)" x="12" y="18" width="4" height="4"></rect>
+                <rect id="Rectangle-Copy-4" fill="url(#linearGradient-1)" x="18" y="18" width="4" height="4"></rect>
+                <rect id="Rectangle-Copy-5" fill="url(#linearGradient-1)" x="24" y="18" width="4" height="4"></rect>
+                <rect id="Rectangle-Copy-2" fill="url(#linearGradient-3)" x="12" y="6" width="16" height="9"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

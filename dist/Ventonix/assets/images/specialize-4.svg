@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E104E667-A8B7-4411-B880-E1C508D1D032@</title>
+    <defs>
+        <linearGradient x1="0.00176721461%" y1="0%" x2="99.9982328%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="37.5%" x2="100%" y2="62.5%" id="linearGradient-2">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="48.2421875%" x2="100%" y2="51.7578125%" id="linearGradient-3">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="42.96875%" x2="100%" y2="57.03125%" id="linearGradient-4">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Service---graphic-design" transform="translate(-1042.000000, -2511.000000)">
+            <g id="icon/code-copy-3" transform="translate(1042.000000, 2511.000000)">
+                <path d="M26,6.53368418e-14 C26.0900988,6.53368418e-14 26.178806,0.00595776533 26.2657493,0.0175008306 C26.912292,-0.0845039009 27.5741055,0.247773374 27.8619391,0.871412734 C27.9905617,1.15009508 28.0264592,1.44785952 27.9824299,1.72996742 C27.9938127,1.81780873 28,1.9081818 28,2 L28,5.9992931 L38,6 C39.1045695,6 40,6.8954305 40,8 L40,38 C40,39.1045695 39.1045695,40 38,40 L14,40 C12.8954305,40 12,39.1045695 12,38 L12,33.9992931 L2,34 C0.8954305,34 0,33.1045695 0,32 L0,2 C0,0.8954305 0.8954305,6.53368418e-14 2,6.53368418e-14 L26,6.53368418e-14 Z M37,9 L28,8.9992931 L28,32 C28,33.1045695 27.1045695,34 26,34 L15,33.9992931 L15,37 L37,37 L37,9 Z M19.67,2.9992931 L3,3 L3,31 L12,30.9992931 L12,8 C12,7.90990124 12.0059578,7.821194 12.0175008,7.73425072 C11.9224886,7.13419012 12.2025427,6.51988336 12.7431264,6.20483265 L12.8714127,6.13806092 L19.67,2.9992931 Z M25,8.9992931 L15,9 L15,30.9992931 L25,31 L25,8.9992931 Z M25,3.8432931 L20.329,5.9992931 L25,5.9992931 L25,3.8432931 Z" id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <rect id="Rectangle" fill="#FFFFFF" x="15" y="9" width="22" height="28"></rect>
+                <rect id="Rectangle" stroke="url(#linearGradient-2)" stroke-width="3" x="19.5" y="13.5" width="13" height="5"></rect>
+                <rect id="Rectangle" fill="url(#linearGradient-3)" x="18" y="23" width="16" height="3"></rect>
+                <rect id="Rectangle-Copy-2" fill="url(#linearGradient-4)" x="18" y="29" width="8" height="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

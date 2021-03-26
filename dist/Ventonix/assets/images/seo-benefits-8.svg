@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>150847D4-05B2-4064-AC68-52F4CEEB42FA@</title>
+    <defs>
+        <linearGradient x1="0%" y1="2.89489056%" x2="100%" y2="97.1051094%" id="linearGradient-1">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="48%" x2="100%" y2="52%" id="linearGradient-2">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.4649227%" x2="100%" y2="50.5350773%" id="linearGradient-3">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Service---seo" transform="translate(-1042.000000, -3216.000000)">
+            <g id="icon/code-copy-9" transform="translate(1042.000000, 3216.000000)">
+                <path d="M26.121673,0.439339828 L38.849595,13.1672619 C39.4353815,13.7530483 39.4353815,14.7027958 38.849595,15.2885822 C38.2638086,15.8743687 37.3140611,15.8743687 36.7282747,15.2885822 L35.94,14.5 L27.2430737,21.9204471 C26.2981846,22.7263819 24.9144806,22.7117198 23.9883206,21.9119746 L23.8529403,21.7861292 L22.683,20.617 L22.4213203,20.8786797 C21.2497475,22.0502525 19.3502525,22.0502525 18.1786797,20.8786797 L17.9213203,20.6213203 C16.7497475,19.4497475 16.7497475,17.5502525 17.9213203,16.3786797 L18.183,16.116 L17.5322429,15.4654319 C16.6540783,14.5872672 16.5592209,13.2067405 17.2831848,12.2202108 L17.397925,12.0752984 L24.816,3.376 L24.0003526,2.56066017 C23.4145662,1.97487373 23.4145662,1.02512627 24.0003526,0.439339828 C24.5861391,-0.146446609 25.5358865,-0.146446609 26.121673,0.439339828 Z M26.8746924,5.58767966 L19.9796924,13.6706797 L25.6466924,19.3376797 L33.7296924,12.4426797 L26.8746924,5.58767966 Z M39,6 C39.5522847,6 40,6.44771525 40,7 C40,7.55228475 39.5522847,8 39,8 L38,8 C37.4477153,8 37,7.55228475 37,7 C37,6.44771525 37.4477153,6 38,6 L39,6 Z M37.1554332,1.31020023 C37.5690335,0.896599924 38.2396532,0.896599924 38.6532535,1.31020023 C39.0668538,1.72380053 39.0668538,2.39442019 38.6532535,2.8080205 L38.6532535,2.8080205 L36.7714742,4.68979977 C36.3578739,5.10340008 35.6872542,5.10340008 35.2736539,4.68979977 C34.8600536,4.27619947 34.8600536,3.60557981 35.2736539,3.1919795 L35.2736539,3.1919795 Z M33,-9.1038288e-15 C33.5522847,-9.1038288e-15 34,0.44771525 34,1 L34,2 C34,2.55228475 33.5522847,3 33,3 C32.4477153,3 32,2.55228475 32,2 L32,1 C32,0.44771525 32.4477153,-9.1038288e-15 33,-9.1038288e-15 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <rect id="Rectangle" fill="url(#linearGradient-2)" x="0" y="19" width="15" height="3" rx="1.5"></rect>
+                <rect id="Rectangle-Copy-7" fill="url(#linearGradient-2)" x="0" y="13" width="15" height="3" rx="1.5"></rect>
+                <rect id="Rectangle-Copy-8" fill="url(#linearGradient-2)" x="0" y="7" width="15" height="3" rx="1.5"></rect>
+                <rect id="Rectangle-Copy" fill="url(#linearGradient-3)" x="0" y="25" width="29" height="3" rx="1.5"></rect>
+                <rect id="Rectangle-Copy-2" fill="url(#linearGradient-3)" x="0" y="31" width="29" height="3" rx="1.5"></rect>
+                <rect id="Rectangle-Copy-6" fill="url(#linearGradient-2)" x="0" y="37" width="15" height="3" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
