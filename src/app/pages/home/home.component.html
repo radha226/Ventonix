@@ -102,15 +102,20 @@
                         <a href="javascript:void(0)" class="btn btn-border"
                           >Read more
                           <img
-                            class="slider-icon"
+                            class="slider-icon white-icon"
                             src="../../../assets/images/arrow.svg"
-                        /></a>
+                          />
+                          <img
+                            class="slider-icon blue-icon"
+                            src="../../../assets/images/slider-blue-arrow.svg"
+                          />
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <!-- <div class="swiper-slide">
                 <div class="swiper-slide-inner">
                   <div class="row">
                     <div class="col-md-6 slider-main-image">
@@ -209,12 +214,15 @@
                           <img
                             class="slider-icon"
                             src="../../../assets/images/arrow.svg"
-                        /></a>
+                        />
+                        
+
+                      </a>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -261,7 +269,7 @@
                   Web <br />
                   Developement
                 </h3>
-                <a routerLink="">Read more</a>
+                <a [routerLink]="['/website']">Read more</a>
               </div>
             </li>
             <li>
@@ -275,7 +283,7 @@
                   Mobile App <br />
                   Developement
                 </h3>
-                <a routerLink="">Read more</a>
+                <a [routerLink]="['/mobile']">Read more</a>
               </div>
             </li>
             <li>
@@ -289,7 +297,7 @@
                   Search Engine<br />
                   Optimization
                 </h3>
-                <a routerLink="">Read more</a>
+                <a [routerLink]="['/seo']">Read more</a>
               </div>
             </li>
             <li>
@@ -303,7 +311,7 @@
                   Graphic <br />
                   Design
                 </h3>
-                <a routerLink="">Read more</a>
+                <a [routerLink]="['/graphic']">Read more</a>
               </div>
             </li>
           </ul>

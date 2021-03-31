@@ -42,6 +42,30 @@ class HomeComponent {
         this.headerService.isHomePage.next(true);
     }
     ngOnInit() {
+        // const target = document.querySelector(".typing-css");
+        // const writer = new Typewriter(target, {
+        //   loop: true,
+        //   typeSpeed: 100,
+        //   deleteSpeed: 100,
+        //   typeColor: "#262332",
+        // });
+        // writer
+        //   .type("professional")
+        //   .rest(2500)
+        //   .changeOps({ deleteSpeed: 20 })
+        //   .remove(12)
+        //   .type("dedicated")
+        //   .rest(2500)
+        //   .changeOps({ deleteSpeed: 20 })
+        //   .remove(9)
+        //   .type("sincere")
+        //   .rest(2500)
+        //   .changeOps({ deleteSpeed: 20 })
+        //   .remove(7)
+        //   .type("modern")
+        //   .rest(2500)
+        //   .clear()
+        //   .start();
         setTimeout(function () {
             var galleryThumbs = new _assets_js_swiper_bundle_min_js__WEBPACK_IMPORTED_MODULE_1___default.a(".gallery-thumbs", {
                 spaceBetween: 10,
@@ -3704,7 +3728,11 @@ const routes = [
 class AppRoutingModule {
 }
 AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
-AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineInjector"]({ factory: function AppRoutingModule_Factory(t) { return new (t || AppRoutingModule)(); }, imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] });
+AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineInjector"]({ factory: function AppRoutingModule_Factory(t) { return new (t || AppRoutingModule)(); }, imports: [[
+            _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(routes, {
+                useHash: true,
+            }),
+        ], _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] }); })();
 
 

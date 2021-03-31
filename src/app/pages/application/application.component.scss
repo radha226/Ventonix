@@ -87,20 +87,15 @@
   letter-spacing: 1px;
   margin-bottom: 60px;
 }
-.btn.btn-main {
-  background: linear-gradient(135deg, #009eff 0%, #30ccc6 100%);
-  border-radius: 5px;
-  padding: 15px 35px;
-  color: #fff;
-  transition: 0.4s ease all;
-  &:hover {
-    transform: translateY(5px) scale(0.9);
-  }
-}
-mat-error {
+error {
   color: red;
 }
-
+a.btn.btn-main {
+  margin-bottom: 0px;
+}
+button {
+  border: 0;
+}
 // *****************media query**********************
 @media screen and (max-width: 1700px) {
   .sv-hero {

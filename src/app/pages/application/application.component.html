@@ -51,7 +51,7 @@
                 ng-modal
               >
                 <option value="" disabled selected selected>
-                  select Your Position
+                  Select Your Position
                 </option>
                 <option *ngFor="let o of options" [value]="o">
                   {{ o.name }}
@@ -176,7 +176,7 @@
             <div class="form-group">
               <input
                 type="text"
-                placeholder="Reasong for change"
+                placeholder="Reason for change"
                 formControlName="Reason"
                 class="form-control"
                 autocomplete="current-Reason"
@@ -229,20 +229,12 @@
 
             <div class="form-group text-left">
               <button
-                class="btn btn-main"
                 [disabled]="!applicationForm.valid"
                 (click)="onSubmit(applicationForm)"
               >
-                <!-- <span
-                  class="spinner-border spinner-border-sm mr-1"
-                  *ngIf="applicationForm.valid"
-                ></span> -->
-                Submit
-                <img
-                  _ngcontent-jba-c20=""
-                  src="../../../assets/images/arrow.svg"
-                  alt="icon"
-                />
+                <a class="btn btn-main">
+                  Submit <img src="../../../assets/images/arrow.svg" />
+                </a>
               </button>
             </div>
           </form>
