@@ -2,6 +2,7 @@ import { Component, OnDestroy, OnInit } from "@angular/core";
 import * as $ from "jquery";
 import { HeaderService } from "src/app/shared/services/header.service";
 import Swiper from "../../../assets/js/swiper-bundle.min.js";
+import Typewriter from "t-writer.js";
 @Component({
   selector: "app-home",
   templateUrl: "./home.component.html",
@@ -10,9 +11,34 @@ import Swiper from "../../../assets/js/swiper-bundle.min.js";
 export class HomeComponent implements OnInit, OnDestroy {
   constructor(private headerService: HeaderService) {
     this.headerService.isHomePage.next(true);
+    //https://chriscavs.github.io/t-writer-demo/
   }
 
   ngOnInit(): void {
+    const target = document.querySelector(".typing-css");
+    const writer = new Typewriter(target, {
+      loop: true,
+      typeSpeed: 100,
+      deleteSpeed: 100,
+      typeColor: "#262332",
+    });
+    writer
+      .type("professional")
+      .rest(2500)
+      .changeOps({ deleteSpeed: 20 })
+      .remove(12)
+      .type("dedicated")
+      .rest(2500)
+      .changeOps({ deleteSpeed: 20 })
+      .remove(9)
+      .type("sincere")
+      .rest(2500)
+      .changeOps({ deleteSpeed: 20 })
+      .remove(7)
+      .type("modern")
+      .rest(2500)
+      .clear()
+      .start();
     setTimeout(function () {
       var galleryThumbs = new Swiper(".gallery-thumbs", {
         spaceBetween: 10,
