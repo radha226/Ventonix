@@ -43,11 +43,12 @@ export class HomeComponent implements OnInit, OnDestroy {
         spaceBetween: 10,
         slidesPerView: 4,
         loop: true,
+        speed: 4500,
         // freeMode: true,
         watchSlidesVisibility: true,
         watchSlidesProgress: true,
         autoplay: {
-          delay: 3500,
+          delay: 4500,
           disableOnInteraction: false,
         },
       });
