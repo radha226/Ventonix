@@ -15,6 +15,7 @@ export class MobileAppComponent implements OnInit {
     linkText: "Get a quote",
   };
   constructor(private headerService: HeaderService) {
+    window.scrollTo(0, 0);
     this.headerService.isHomePage.next(false);
   }
 

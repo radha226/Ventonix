@@ -15,6 +15,7 @@ export class SeoComponent implements OnInit {
     linkText: "Ask a quotation",
   };
   constructor(private headerService: HeaderService) {
+    window.scrollTo(0, 0);
     this.headerService.isHomePage.next(false);
   }
 

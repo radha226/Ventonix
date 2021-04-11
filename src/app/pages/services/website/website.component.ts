@@ -14,6 +14,7 @@ export class WebsiteComponent implements OnInit {
     linkText: "Contact us now",
   };
   constructor(private headerService: HeaderService) {
+    window.scrollTo(0, 0);
     this.headerService.isHomePage.next(false);
   }
 
