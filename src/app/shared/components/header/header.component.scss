@@ -1,5 +1,8 @@
 .header {
   padding: 20px 0;
+  position: absolute;
+  width: 100%;
+
   // transition: 0.3s ease all;
   // z-index: 999999;
   // position: relative;
@@ -326,6 +329,16 @@ header.scrolling_up {
   }
   .mobile-menu {
     display: block;
+    animation-name: example;
+    animation-duration: 1s;
+  }
+  @keyframes example {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
   .side-menu img {
     position: relative;
@@ -335,11 +348,15 @@ header.scrolling_up {
   .main-menu {
     background: #1ab7e1;
     width: 100%;
-    top: 10px;
+    top: -20px;
+    z-index: 4;
+    position: relative;
+
     // border-bottom: 1px solid #ffffff66;
     ul {
       flex-direction: column;
       padding: 10px;
+
       li {
         a {
           text-align: center;
