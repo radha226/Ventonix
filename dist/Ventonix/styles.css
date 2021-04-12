@@ -1515,7 +1515,7 @@ a.btn.btn-main img {
   margin-left: 10px;
 }
 a.btn.btn-main:hover {
-  transform: translateY(5px) scale(0.9);
+  transform: translateY(3px) scale(0.93);
 }
 @media screen and (max-width: 1800px) {
   .container {
