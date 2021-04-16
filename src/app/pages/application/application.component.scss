@@ -131,6 +131,9 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+  .login-form .pl-0 {
+    padding: 0;
+  }
   .sv-hero {
     padding: 145px 0 0px 0px;
     background-image: none;
