@@ -95,14 +95,16 @@
   }
   .Specilize-list {
     ul {
+      grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+      width: 100%;
+      display: grid;
+      grid-gap: 3rem;
       li {
         background: #fff;
         border-radius: 2px;
-        width: 31%;
-        float: left;
         box-sizing: border-box;
         padding: 35px;
-        margin: 0px 48px 48px 0;
+
         height: 105px;
         .icons {
           display: flex;
@@ -116,12 +118,6 @@
             margin: 0px 0px 0px 22px;
           }
         }
-      }
-      li:nth-child(3),
-      li:nth-child(6),
-      li:nth-child(9),
-      li:nth-child(12) {
-        margin: 0px 0px 48px 0px;
       }
     }
   }
@@ -177,17 +173,14 @@
 
   .Specilize {
     padding: 80px 0 90px 0px;
-    background-position: 3% 53%, 95% 13%, 100% 96%;
+    background-image: none;
     .Specilize-title {
       font-size: 38px;
     }
     .Specilize-list {
       ul {
-        display: flex;
-        flex: 0 0 30%;
-        flex-wrap: wrap;
         li {
-          width: 30%;
+          padding: 2rem;
           display: flex;
           max-height: none;
           flex-direction: column;
@@ -231,7 +224,7 @@
   }
   .Specilize {
     padding: 80px 0 90px 0px;
-    background-position: 0% 53%, 95% 13%, 100% 94%;
+    background-image: none;
     .Specilize-title {
       font-size: 38px;
       p {
@@ -240,16 +233,12 @@
     }
     .Specilize-list {
       ul {
-        display: flex;
-
-        flex-wrap: wrap;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 2rem;
         li {
-          width: 30%;
           align-items: center;
           justify-content: center;
-
-          padding: 20px;
-          margin: 0px 20px 20px 0;
+          padding: 1.5rem;
           .icons img {
             width: 30px;
           }
@@ -332,15 +321,9 @@
     }
     .Specilize-list {
       ul {
+        grid-gap: 1rem;
         li {
-          width: 44%;
           align-items: flex-start;
-        }
-        li:nth-child(3),
-        li:nth-child(6),
-        li:nth-child(9),
-        li:nth-child(12) {
-          margin: 0px 20px 20px 0;
         }
       }
     }
@@ -375,8 +358,6 @@
     .Specilize-list {
       ul {
         li {
-          width: 100% !important;
-          margin-right: 0 !important;
           h4 {
             font-size: 14px;
             line-height: 24px;
