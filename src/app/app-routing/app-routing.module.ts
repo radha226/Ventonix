@@ -11,6 +11,8 @@ import { WebsiteComponent } from "../pages/services/website/website.component";
 import { MobileAppComponent } from "../pages/services/mobile-app/mobile-app.component";
 import { GraphicComponent } from "../pages/services/graphic/graphic.component";
 import { SeoComponent } from "../pages/services/seo/seo.component";
+import { PolicyComponent } from "../pages/policy/policy.component";
+import { TermsComponent } from "../pages/terms/terms.component";
 const routes: Routes = [
   {
     path: "",
@@ -33,6 +35,8 @@ const routes: Routes = [
   { path: "graphic", component: GraphicComponent },
   { path: "application", component: ApplicationComponent },
   { path: "contact", component: ContactComponent },
+  { path: "terms", component: TermsComponent },
+  { path: "policy", component: PolicyComponent },
 ];
 
 @NgModule({
