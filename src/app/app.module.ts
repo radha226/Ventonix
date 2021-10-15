@@ -19,6 +19,8 @@ import { SeoComponent } from "./pages/services/seo/seo.component";
 import { GraphicComponent } from "./pages/services/graphic/graphic.component";
 import { OnlineAppointmentComponent } from "./shared/components/online-appointment/online-appointment.component";
 import { RecentProjectsComponent } from "./shared/components/recent-projects/recent-projects.component";
+import { TermsComponent } from './pages/terms/terms.component';
+import { PolicyComponent } from './pages/policy/policy.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +38,8 @@ import { RecentProjectsComponent } from "./shared/components/recent-projects/rec
     GraphicComponent,
     OnlineAppointmentComponent,
     RecentProjectsComponent,
+    TermsComponent,
+    PolicyComponent,
   ],
   imports: [
     BrowserModule,
