@@ -111,7 +111,7 @@
                     class="form-control"
                   />
                   <div *ngIf="formName.Email.invalid && formName.Email.touched">
-                    <div *ngIf="formName.Email.errors.required">
+                    <div>
                       <mat-error *ngIf="formName.Email.errors.required"
                         >Email is required</mat-error
                       >
@@ -144,7 +144,7 @@
 
             <div class="form-group">
               <input
-                type="text"
+                type="number"
                 placeholder="Current CTC"
                 formControlName="CTC"
                 class="form-control"
@@ -158,7 +158,7 @@
             </div>
             <div class="form-group">
               <input
-                type="text"
+                type="number"
                 placeholder="Expected CTC"
                 formControlName="Expected"
                 class="form-control"

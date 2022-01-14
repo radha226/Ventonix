@@ -24,16 +24,15 @@ export class ContactComponent implements OnInit {
       fullName: ["", Validators.required],
       phone: ["", Validators.required],
       email: ["", [Validators.required, Validators.email]],
+      // email: ["", [Validators.required, Validators.email]],
       message: ["", Validators.required],
-      conditon: [true],
+      conditon: [false],
     });
   }
   onSubmit(data) {
-    console.log(data.value);
     if (!data.invalid) {
       this.checkContactformValidation;
     } else {
-      console.log(data.value);
     }
   }
   formName() {

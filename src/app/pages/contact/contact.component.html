@@ -69,15 +69,16 @@
                   autocomplete="Email"
                   formControlName="email"
                   class="form-control"
+                  required
                 />
                 <div
                   *ngIf="formName().email.invalid && formName().email.touched"
                 >
-                  <div *ngIf="formName().email.errors.required">
+                  <div>
                     <mat-error *ngIf="formName().email.errors.required"
                       >Email is required</mat-error
                     >
-                    <mat-error *ngIf="formName().email.errors.email"
+                    <mat-error *ngIf="formName().email.errors?.email"
                       >Email must be a valid Email address</mat-error
                     >
                   </div>
@@ -88,7 +89,7 @@
             <div class="form-group">
               <input
                 type="number"
-                placeholder="phone"
+                placeholder="Phone"
                 formControlName="phone"
                 class="form-control"
                 autocomplete="current-Phone"
