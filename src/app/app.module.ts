@@ -19,8 +19,9 @@ import { SeoComponent } from "./pages/services/seo/seo.component";
 import { GraphicComponent } from "./pages/services/graphic/graphic.component";
 import { OnlineAppointmentComponent } from "./shared/components/online-appointment/online-appointment.component";
 import { RecentProjectsComponent } from "./shared/components/recent-projects/recent-projects.component";
-import { TermsComponent } from './pages/terms/terms.component';
-import { PolicyComponent } from './pages/policy/policy.component';
+import { TermsComponent } from "./pages/terms/terms.component";
+import { PolicyComponent } from "./pages/policy/policy.component";
+import { NgxCaptchaModule } from "ngx-captcha";
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,6 +49,7 @@ import { PolicyComponent } from './pages/policy/policy.component';
     ReactiveFormsModule,
     MaterialModule,
     BrowserAnimationsModule,
+    NgxCaptchaModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
