@@ -23,7 +23,16 @@ export class ContactComponent implements OnInit {
     this.contactUs = this.fb.group({
       fullName: ["", Validators.required],
       phone: ["", Validators.required],
-      email: ["", [Validators.required, Validators.email]],
+      email: [
+        "",
+        [
+          Validators.required,
+          Validators.email,
+          Validators.pattern(
+            /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+          ),
+        ],
+      ],
       recaptcha: ["", Validators.required],
       // email: ["", [Validators.required, Validators.email]],
       message: ["", Validators.required],
