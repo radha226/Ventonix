@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>29105D51-48AB-4ECA-AB7D-825201F17A63@</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#009EFF" offset="0%"></stop>
+            <stop stop-color="#30CCC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Service---graphic-design" transform="translate(-462.000000, -2676.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="icon/code-copy-4" transform="translate(462.000000, 2676.000000)">
+                <path d="M40,0 L40,40 L27,40 L27,0 L40,0 Z M24,13 L24,40 L0,40 L0,13 L24,13 Z M37,3 L30,3 L30,37 L37,37 L37,3 Z M21,16 L3,16 L3,37 L21,37 L21,16 Z M24,0 L24,10 L0,10 L0,0 L24,0 Z M21,3 L3,3 L3,7 L21,7 L21,3 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

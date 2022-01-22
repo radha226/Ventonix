@@ -1,0 +1,25 @@
+<svg width="1920" height="795" viewBox="0 0 1920 795" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1920" height="768" fill="url(#paint0_linear)"/>
+<rect x="1749" y="521" width="37" height="37" rx="2" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<circle cx="1542" cy="262" r="8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<rect x="184" y="630" width="20" height="20" rx="2" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1130.13 794C1124.54 794 1120 789.473 1120 783.887V568.113C1120 562.527 1124.54 558 1130.13 558H1490.87C1496.46 558 1501 562.527 1501 568.113V783.887C1501 789.473 1496.46 794 1490.87 794H1130.13Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M1137.77 580C1140.34 580 1142.54 578.054 1142.54 575.5H1140.54C1140.54 576.812 1139.37 578 1137.77 578V580ZM1133 575.5C1133 578.054 1135.21 580 1137.77 580V578C1136.17 578 1135 576.812 1135 575.5H1133ZM1137.77 571C1135.21 571 1133 572.946 1133 575.5H1135C1135 574.188 1136.17 573 1137.77 573V571ZM1142.54 575.5C1142.54 572.946 1140.34 571 1137.77 571V573C1139.37 573 1140.54 574.188 1140.54 575.5H1142.54ZM1150.03 580C1152.59 580 1154.8 578.054 1154.8 575.5H1152.8C1152.8 576.812 1151.63 578 1150.03 578V580ZM1145.26 575.5C1145.26 578.054 1147.46 580 1150.03 580V578C1148.43 578 1147.26 576.812 1147.26 575.5H1145.26ZM1150.03 571C1147.46 571 1145.26 572.946 1145.26 575.5H1147.26C1147.26 574.188 1148.43 573 1150.03 573V571ZM1154.8 575.5C1154.8 572.946 1152.59 571 1150.03 571V573C1151.63 573 1152.8 574.188 1152.8 575.5H1154.8ZM1166 575.5C1166 576.812 1164.83 578 1163.23 578V580C1165.79 580 1168 578.054 1168 575.5H1166ZM1163.23 573C1164.83 573 1166 574.188 1166 575.5H1168C1168 572.946 1165.79 571 1163.23 571V573ZM1160.46 575.5C1160.46 574.188 1161.63 573 1163.23 573V571C1160.66 571 1158.46 572.946 1158.46 575.5H1160.46ZM1163.23 578C1161.63 578 1160.46 576.812 1160.46 575.5H1158.46C1158.46 578.054 1160.66 580 1163.23 580V578Z" fill="white"/>
+<path d="M1199.5 579V780" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<rect x="1221" y="710" width="72" height="27" rx="2" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<rect x="1312" y="710" width="72" height="27" rx="2" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<rect x="1402" y="710" width="72" height="27" rx="2" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1221 616C1221 614.895 1221.9 614 1223 614H1470C1471.1 614 1472 614.895 1472 616V691C1472 692.105 1471.1 693 1470 693H1223C1221.9 693 1221 692.105 1221 691V653.5V616Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<rect x="1039" y="612" width="121.393" height="50.3949" rx="2" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<rect x="1049.43" y="622.459" width="29.3999" height="29.4763" rx="2" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M1090.21 623.41H1140.34" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M1090.21 636.722H1140.34" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M1090.21 650.034H1119.61" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M1120 591.5H1473" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<defs>
+<linearGradient id="paint0_linear" x1="-960" y1="384" x2="-430.345" y2="1708.14" gradientUnits="userSpaceOnUse">
+<stop stop-color="#009EFF"/>
+<stop offset="1" stop-color="#30CCC6"/>
+</linearGradient>
+</defs>
+</svg>
